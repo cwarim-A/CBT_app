@@ -1,0 +1,68 @@
+.option-box {
+  --checkbox-size: 1.6rem;
+  --checkbox-color-on: rgb(211, 211, 211);
+  --checkbox-color-off: var(--red);
+  --transition: ease-in 0.2s background-color;
+
+  /* styling the option box */
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  width: 90%;
+  cursor: pointer;
+  border-radius: 2rem;
+  transition: 0.5s scale ease-out, 0.3s ease-in background-color;
+  /* & > * {
+    border: 2px solid red;
+  } */
+  & > .checkbox {
+    display: flex;
+
+    & input[type="radio"] {
+      opacity: 0;
+      margin: 0;
+    }
+    /* hiding the original radio button */
+    & .checkmark {
+      display: block;
+      width: var(--checkbox-size);
+      aspect-ratio: 1;
+      border-radius: 50%;
+      background-color: var(--checkbox-color-on);
+      translate: calc(-1 * var(--checkbox-size) / 3);
+      position: relative;
+      transition: var(--transition);
+      /* hiding the checkmark when radio button is unchecked */
+      &::after {
+        content: "";
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        translate: -50% -50%;
+        display: none;
+      }
+    }
+  }
+
+  /* showing the checkmark when radio button is checked */
+  & input[type="radio"]:checked ~ .checkmark {
+    background-color: var(--checkbox-color-off);
+  }
+  & input[type="radio"]:checked ~ .checkmark::after {
+    display: block;
+    width: calc(var(--checkbox-size) / 2);
+    aspect-ratio: 1;
+    background-color: white;
+    border-radius: inherit;
+  }
+  /* styling the text */
+  & .text {
+    color: rgb(68, 68, 68);
+    font-size: clamp(1rem, 4vw, 1.2rem);
+    font-family: arial;
+  }
+  &:hover {
+    scale: 1.1;
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+}

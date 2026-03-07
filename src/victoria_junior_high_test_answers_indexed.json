@@ -1,0 +1,48 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is motion?",
+      "options": [
+        "The change in position of an object over time",
+        "The energy of an object",
+        "The speed of an object",
+        "The mass of an object"
+      ],
+      "answer-index": 0
+    },
+    {
+      "id": 2,
+      "question": "What is speed?",
+      "options": [
+        "The time taken",
+        "The total displacement",
+        "The fastness or slowness of an object",
+        "The force applied"
+      ],
+      "answer-index": 2
+    },
+    {
+      "id": 3,
+      "question": "Define acceleration.",
+      "options": [
+        "The increase in speed",
+        "The rate of change of velocity",
+        "The increase in distance",
+        "The decrease in time"
+      ],
+      "answer-index": 1
+    },
+    {
+      "id": 4,
+      "question": "What is storytelling in animation?",
+      "options": [
+        "Adding effects",
+        "Editing videos",
+        "Drawing characters",
+        "Creating a sequence of events that engage the audience"
+      ],
+      "answer-index": 3
+    }
+  ]
+}

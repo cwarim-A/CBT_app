@@ -1,0 +1,40 @@
+{
+  "students": [
+    {
+      "id": "0",
+      "name": "Effiong, Chosen Etim",
+      "className": "JSS1 - JSS3",
+      "subject": "Web development",
+      "score": 5,
+      "average": "5%",
+      "grade": "F9"
+    },
+    {
+      "id": "1",
+      "name": "Sunday Maxwell",
+      "className": "SS1 - SS3",
+      "subject": "tupitube",
+      "score": 4,
+      "average": "100%",
+      "grade": "A1"
+    },
+    {
+      "id": "2",
+      "name": "Mercy",
+      "className": "SS1 - SS3",
+      "subject": "tupitube",
+      "score": 4,
+      "average": "100%",
+      "grade": "A1"
+    },
+    {
+      "id": 3,
+      "name": "Mercy Nwankwo",
+      "className": "JSS1 - JSS3",
+      "subject": "Web development",
+      "score": 0,
+      "average": "0%",
+      "grade": "F9"
+    }
+  ]
+}

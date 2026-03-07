@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  & img {
+    width: 140px;
+  }
+  & h1 {
+    text-transform: uppercase;
+    font-family: arial;
+    font-weight: bold;
+    font-size: clamp(2rem, 5vw, 3rem);
+    & span:first-child {
+      color: orangered;
+    }
+    & span:last-child {
+      color: rgb(0, 0, 187);
+    }
+  }
+}

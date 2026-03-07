@@ -1,0 +1,859 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "What does HTML stand for?",
+      "options": [
+        "Hyper Trainer Marking Language",
+        "Hyper Text Markup Language",
+        "Hyper Text Marketing Language",
+        "Hyper Tool Multi Language"
+      ],
+      "answer-index": 1
+    },
+    {
+      "id": 2,
+      "question": "What is the function of the <head> tag in HTML?",
+      "options": [
+        "Displays main content",
+        "Stores metadata about the page",
+        "Displays headers on the page",
+        "Renders JavaScript"
+      ],
+      "answer-index": 1
+    },
+    {
+      "id": 3,
+      "question": "What tag is used to insert a line break?",
+      "options": ["<p>", "<br>", "<hr>", "<line>"],
+      "answer-index": 1
+    },
+    {
+      "id": 4,
+      "question": "Which tag is used to create a hyperlink?",
+      "options": ["<link>", "<a>", "<href>", "<url>"],
+      "answer-index": 1
+    },
+    {
+      "id": 5,
+      "question": "What attribute is used to define the target URL of a link?",
+      "options": ["src", "link", "href", "url"],
+      "answer-index": 2
+    },
+    {
+      "id": 6,
+      "question": "What is the purpose of the <title> tag?",
+      "options": [
+        "To create a main heading",
+        "To style the page",
+        "To name the tab in the browser",
+        "To display titles inside paragraphs"
+      ],
+      "answer-index": 2
+    },
+    {
+      "id": 7,
+      "question": "Write the correct HTML to create a paragraph.",
+      "options": [
+        "<p>This is a paragraph</p>",
+        "<para>This is a paragraph</para>",
+        "<pg>This is a paragraph</pg>",
+        "<text>This is a paragraph</text>"
+      ],
+      "answer-index": 0
+    },
+    {
+      "id": 8,
+      "question": "Which HTML tag is used to display an image?",
+      "options": ["<pic>", "<image>", "<img>", "<src>"],
+      "answer-index": 2
+    },
+    {
+      "id": 9,
+      "question": "What attribute is used to specify image source?",
+      "options": ["href", "link", "src", "source"],
+      "answer-index": 2
+    },
+    {
+      "id": 10,
+      "question": "What is the purpose of the alt attribute in the <img> tag?",
+      "options": [
+        "To specify image size",
+        "To add alternative text if image fails to load",
+        "To link to another image",
+        "To add a caption"
+      ],
+      "answer-index": 1
+    },
+    {
+      "id": 11,
+      "question": "What tag creates an unordered list?",
+      "options": ["<ol>", "<ul>", "<li>", "<list>"],
+      "answer-index": 1
+    },
+    {
+      "id": 12,
+      "question": "What tag creates a list item?",
+      "options": ["<list>", "<li>", "<item>", "<ul>"],
+      "answer-index": 1
+    },
+    {
+      "id": 13,
+      "question": "What tag is used to create a form?",
+      "options": ["<form>", "<forms>", "<input>", "<fieldset>"],
+      "answer-index": 0
+    },
+    {
+      "id": 14,
+      "question": "Which input type is used to create a password field?",
+      "options": [
+        "type=\"text\"",
+        "type=\"email\"",
+        "type=\"password\"",
+        "type=\"hidden\""
+      ],
+      "answer-index": 2
+    },
+    {
+      "id": 15,
+      "question": "How do you create a checkbox input?",
+      "options": [
+        "<input type=\"box\">",
+        "<input type=\"checkbox\">",
+        "<checkbox>",
+        "<check>"
+      ],
+      "answer-index": 1
+    },
+    {
+      "id": 16,
+      "question": "What is the function of the <label> tag?",
+      "options": [
+        "Adds a description to a link",
+        "Styles form inputs",
+        "Defines text associated with a form control",
+        "Adds metadata to input"
+      ],
+      "answer-index": 2
+    },
+    {
+      "id": 17,
+      "question": "What tag is used to create a table?",
+      "options": ["<td>", "<table>", "<tr>", "<form>"],
+      "answer-index": 1
+    },
+    {
+      "id": 18,
+      "question": "What tag defines a table row?",
+      "options": ["<td>", "<row>", "<tr>", "<table>"],
+      "answer-index": 2
+    },
+    {
+      "id": 19,
+      "question": "What tag defines a table cell?",
+      "options": ["<cell>", "<td>", "<tr>", "<th>"],
+      "answer-index": 1
+    },
+    {
+      "id": 20,
+      "question": "What tag is used for headings from largest to smallest?",
+      "options": [
+        "<head1> to <head6>",
+        "<heading>",
+        "<h1> to <h6>",
+        "<hl> to <hs>"
+      ],
+      "answer-index": 2
+    },
+    {
+      "id": 21,
+      "question": "What is the href attribute used for?",
+      "options": [
+        "To define an image source",
+        "To link a stylesheet",
+        "To define the destination of a hyperlink",
+        "To create a heading"
+      ],
+      "answer-index": 2
+    },
+    {
+      "id": 22,
+      "question": "How do you make a link open in a new tab?",
+      "options": [
+        "target=\"_window\"",
+        "target=\"_blank\"",
+        "newtab=\"true\"",
+        "open=\"new\""
+      ],
+      "answer-index": 1
+    },
+    {
+      "id": 23,
+      "question": "What does the id attribute do?",
+      "options": [
+        "Assigns a default font",
+        "Sets the element\u2019s color",
+        "Identifies an element uniquely",
+        "Applies a group style"
+      ],
+      "answer-index": 2
+    },
+    {
+      "id": 24,
+      "question": "How is the class attribute used in HTML?",
+      "options": [
+        "To define a section",
+        "To apply a unique ID",
+        "To apply reusable styles to elements",
+        "To link to JavaScript"
+      ],
+      "answer-index": 2
+    },
+    {
+      "id": 25,
+      "question": "Can a single element have multiple classes?",
+      "options": [
+        "No",
+        "Yes, separated by colons",
+        "Yes, separated by spaces",
+        "Only in tables"
+      ],
+      "answer-index": 2
+    },
+    {
+      "id": 26,
+      "question": "What is the src attribute used for?",
+      "options": [
+        "To add captions",
+        "To link a CSS file",
+        "To define a source for an image or media",
+        "To style a paragraph"
+      ],
+      "answer-index": 2
+    },
+    {
+      "id": 27,
+      "question": "How do you specify the width of an image in HTML?",
+      "options": [
+        "width=\"100\"",
+        "size=\"100\"",
+        "image-size=\"100\"",
+        "setwidth=\"100\""
+      ],
+      "answer-index": 0
+    },
+    {
+      "id": 28,
+      "question": "What is the use of the style attribute?",
+      "options": [
+        "To create a stylesheet",
+        "To apply inline CSS",
+        "To define a class",
+        "To apply external fonts"
+      ],
+      "answer-index": 1
+    },
+    {
+      "id": 29,
+      "question": "How can you create a tooltip for an element?",
+      "options": [
+        "Using hover=\"tip\"",
+        "Using tooltip=\"...\"",
+        "Using the title attribute",
+        "Using the alt attribute"
+      ],
+      "answer-index": 2
+    },
+    {
+      "id": 30,
+      "question": "What is the difference between id and class?",
+      "options": [
+        "id can be used multiple times",
+        "class must be unique",
+        "id is for JavaScript, class is not",
+        "id is unique; class can be reused"
+      ],
+      "answer-index": 3
+    },
+    {
+      "id": 31,
+      "question": "Can two elements share the same id?",
+      "options": [
+        "Yes",
+        "Only in forms",
+        "No, id must be unique",
+        "Only in <div> tags"
+      ],
+      "answer-index": 2
+    },
+    {
+      "id": 32,
+      "question": "What HTML tag is used to group related form elements?",
+      "options": ["<group>", "<fieldset>", "<formgroup>", "<set>"],
+      "answer-index": 1
+    },
+    {
+      "id": 33,
+      "question": "What is the use of the <legend> tag?",
+      "options": [
+        "To add a caption for fieldset",
+        "To add an image title",
+        "To create tooltips",
+        "To insert a label"
+      ],
+      "answer-index": 0
+    },
+    {
+      "id": 34,
+      "question": "How do you create a radio button in HTML?",
+      "options": [
+        "<input type=\"radiobutton\">",
+        "<radio>",
+        "<input type=\"radio\">",
+        "<button type=\"radio\">"
+      ],
+      "answer-index": 2
+    },
+    {
+      "id": 35,
+      "question": "What tag is used to create a drop-down list?",
+      "options": [
+        "<select>",
+        "<dropdown>",
+        "<input type=\"dropdown\">",
+        "<optionlist>"
+      ],
+      "answer-index": 0
+    },
+    {
+      "id": 36,
+      "question": "What tag is used to define choices in a drop-down menu?",
+      "options": ["<choice>", "<option>", "<select>", "<input>"],
+      "answer-index": 1
+    },
+    {
+      "id": 37,
+      "question": "Which attribute is used to make a field mandatory?",
+      "options": ["important", "required", "validate", "mandatory"],
+      "answer-index": 1
+    },
+    {
+      "id": 38,
+      "question": "Which input type is used to accept email addresses?",
+      "options": [
+        "type=\"text\"",
+        "type=\"mail\"",
+        "type=\"email\"",
+        "type=\"address\""
+      ],
+      "answer-index": 2
+    },
+    {
+      "id": 39,
+      "question": "What input type allows users to select a file?",
+      "options": [
+        "type=\"upload\"",
+        "type=\"browse\"",
+        "type=\"file\"",
+        "type=\"open\""
+      ],
+      "answer-index": 2
+    },
+    {
+      "id": 40,
+      "question": "How do you create a submit button?",
+      "options": [
+        "<input type=\"submit\">",
+        "<submit>",
+        "<button type=\"submit\">",
+        "Both A and C"
+      ],
+      "answer-index": 3
+    },
+    {
+      "id": 41,
+      "question": "What does CSS stand for?",
+      "options": [
+        "Computer Style Sheets",
+        "Cascading Style Sheets",
+        "Creative Style Syntax",
+        "Colorful Style Script"
+      ],
+      "answer-index": 1
+    },
+    {
+      "id": 42,
+      "question": "Where can CSS be written?",
+      "options": [
+        "In an external file",
+        "Inside a <style> tag",
+        "Inline with the element",
+        "All of the above"
+      ],
+      "answer-index": 3
+    },
+    {
+      "id": 43,
+      "question": "Which tag is used to apply internal CSS?",
+      "options": ["<style>", "<css>", "<link>", "<script>"],
+      "answer-index": 0
+    },
+    {
+      "id": 44,
+      "question": "How do you apply an external CSS file?",
+      "options": [
+        "<style src=\"style.css\">",
+        "<stylesheet>style.css</stylesheet>",
+        "<link rel=\"stylesheet\" href=\"style.css\">",
+        "<css link=\"style.css\">"
+      ],
+      "answer-index": 2
+    },
+    {
+      "id": 45,
+      "question": "Which property is used to change text color in CSS?",
+      "options": ["font-color", "text-color", "color", "textstyle"],
+      "answer-index": 2
+    },
+    {
+      "id": 46,
+      "question": "How do you add a background color in CSS?",
+      "options": [
+        "color-background: red;",
+        "bgcolor: red;",
+        "background: red;",
+        "background-color: red;"
+      ],
+      "answer-index": 3
+    },
+    {
+      "id": 47,
+      "question": "What symbol is used for CSS class selector?",
+      "options": ["#", ".", "$", "*"],
+      "answer-index": 1
+    },
+    {
+      "id": 48,
+      "question": "What symbol is used for CSS ID selector?",
+      "options": [".", "*", "@", "#"],
+      "answer-index": 3
+    },
+    {
+      "id": 49,
+      "question": "How do you center text using CSS?",
+      "options": [
+        "align: center;",
+        "text-position: center;",
+        "text-align: center;",
+        "horizontal-align: center;"
+      ],
+      "answer-index": 2
+    },
+    {
+      "id": 50,
+      "question": "Which property sets the font size?",
+      "options": ["text-size", "font-style", "font-size", "text-style"],
+      "answer-index": 2
+    },
+    {
+      "id": 51,
+      "question": "What is the correct syntax for comments in CSS?",
+      "options": [
+        "<!-- comment -->",
+        "// comment",
+        "# comment",
+        "/* comment */"
+      ],
+      "answer-index": 3
+    },
+    {
+      "id": 52,
+      "question": "Which property is used to make text bold?",
+      "options": [
+        "font-weight: bold;",
+        "bold: true;",
+        "text-style: bold;",
+        "font-style: bold;"
+      ],
+      "answer-index": 0
+    },
+    {
+      "id": 53,
+      "question": "How do you make text italic in CSS?",
+      "options": [
+        "text-style: italic;",
+        "font-italic: true;",
+        "font-style: italic;",
+        "italic: yes;"
+      ],
+      "answer-index": 2
+    },
+    {
+      "id": 54,
+      "question": "Which property changes the size of an element\u2019s box?",
+      "options": ["padding", "size", "width", "box-size"],
+      "answer-index": 2
+    },
+    {
+      "id": 55,
+      "question": "Which property adds space inside the border?",
+      "options": ["margin", "spacing", "padding", "gap"],
+      "answer-index": 2
+    },
+    {
+      "id": 56,
+      "question": "Which property adds space outside the border?",
+      "options": ["margin", "padding", "border-spacing", "spacing"],
+      "answer-index": 0
+    },
+    {
+      "id": 57,
+      "question": "What does the display: none; property do?",
+      "options": [
+        "Hides the element completely",
+        "Fades the element",
+        "Makes element invisible but keeps space",
+        "Shrinks the element"
+      ],
+      "answer-index": 0
+    },
+    {
+      "id": 58,
+      "question": "What unit is used for relative sizing in CSS?",
+      "options": ["px", "cm", "pt", "em"],
+      "answer-index": 3
+    },
+    {
+      "id": 59,
+      "question": "What does * selector target?",
+      "options": [
+        "Only paragraphs",
+        "Only classes",
+        "All elements",
+        "Header only"
+      ],
+      "answer-index": 2
+    },
+    {
+      "id": 60,
+      "question": "What is the default value of position in CSS?",
+      "options": ["fixed", "relative", "static", "absolute"],
+      "answer-index": 2
+    },
+    {
+      "id": 61,
+      "question": "What does the div p selector do?",
+      "options": [
+        "Selects all <p> elements inside any <div>",
+        "Selects all <div> elements inside <p>",
+        "Selects the first <p> element",
+        "Selects all elements"
+      ],
+      "answer-index": 0
+    },
+    {
+      "id": 62,
+      "question": "What does the div > p selector do?",
+      "options": [
+        "Selects any <p> inside any <div>",
+        "Selects only direct child <p> elements of <div>",
+        "Selects all <div> elements",
+        "Selects the last <p> in a <div>"
+      ],
+      "answer-index": 1
+    },
+    {
+      "id": 63,
+      "question": "Which selector selects all elements with class \"note\"?",
+      "options": ["#note", ".note", "*note", "note."],
+      "answer-index": 1
+    },
+    {
+      "id": 64,
+      "question": "Which selector selects the element with id \"main\"?",
+      "options": [".main", "main", "#main", "*main"],
+      "answer-index": 2
+    },
+    {
+      "id": 65,
+      "question": "How do you select all <a> elements with target=\"_blank\"?",
+      "options": [
+        "a[target=\"_blank\"]",
+        "a::target=\"_blank\"",
+        "a.blank",
+        "a > target=\"_blank\""
+      ],
+      "answer-index": 0
+    },
+    {
+      "id": 66,
+      "question": "Which selector applies style to every <p> inside <div class=\"box\">?",
+      "options": ["p .box", ".box > p", ".box p", "p.box"],
+      "answer-index": 2
+    },
+    {
+      "id": 67,
+      "question": "What does the + selector do?",
+      "options": [
+        "Selects all children",
+        "Selects next sibling element",
+        "Selects the parent",
+        "Adds spacing"
+      ],
+      "answer-index": 1
+    },
+    {
+      "id": 68,
+      "question": "Which selector selects all elements with data-type=\"info\"?",
+      "options": [
+        "[data-type]",
+        "[data-type=info]",
+        "[data-type=\"info\"]",
+        "data-type=info"
+      ],
+      "answer-index": 2
+    },
+    {
+      "id": 69,
+      "question": "What does li:first-child select?",
+      "options": [
+        "The last list item",
+        "All list items",
+        "Only the first <li> child of its parent",
+        "Only the first <ul>"
+      ],
+      "answer-index": 2
+    },
+    {
+      "id": 70,
+      "question": "What does h1, h2, h3 selector mean?",
+      "options": [
+        "Applies styles to h1 inside h2 and h3",
+        "Applies style only to h3",
+        "Applies styles to all three",
+        "Selects the largest heading"
+      ],
+      "answer-index": 2
+    },
+    {
+      "id": 71,
+      "question": "What does the :hover selector do?",
+      "options": [
+        "Selects an element when clicked",
+        "Selects an element on scroll",
+        "Selects an element when the mouse is over it",
+        "Always applies the style"
+      ],
+      "answer-index": 2
+    },
+    {
+      "id": 72,
+      "question": "What does the :checked selector target?",
+      "options": [
+        "Disabled input fields",
+        "Focused form fields",
+        "Checked checkboxes or radio buttons",
+        "All buttons"
+      ],
+      "answer-index": 2
+    },
+    {
+      "id": 73,
+      "question": "What does input:focus select?",
+      "options": [
+        "Only disabled inputs",
+        "The input currently selected (focused)",
+        "All inputs",
+        "The last input"
+      ],
+      "answer-index": 1
+    },
+    {
+      "id": 74,
+      "question": "What is the meaning of * in CSS selectors?",
+      "options": [
+        "Selects only body",
+        "Selects only divs",
+        "Universal selector (all elements)",
+        "Invalid syntax"
+      ],
+      "answer-index": 2
+    },
+    {
+      "id": 75,
+      "question": "Which selector selects only the last <p> in a parent?",
+      "options": ["p:last-of-type", "p:last()", "p:last", "p:last-element"],
+      "answer-index": 0
+    },
+    {
+      "id": 76,
+      "question": "What is the use of the not() selector?",
+      "options": [
+        "To hide elements",
+        "To select all elements",
+        "To exclude specific elements",
+        "To apply bold"
+      ],
+      "answer-index": 2
+    },
+    {
+      "id": 77,
+      "question": "Which color code is valid in CSS?",
+      "options": ["rgb(255, 0, 0)", "#00ff00", "red", "All of the above"],
+      "answer-index": 3
+    },
+    {
+      "id": 78,
+      "question": "What does rgba(0,0,0,0.5) stand for?",
+      "options": [
+        "Red Green Blue Alpha",
+        "Red Green Black Alpha",
+        "Raw Grey Black Alpha",
+        "Real Gradient Basic Alpha"
+      ],
+      "answer-index": 0
+    },
+    {
+      "id": 79,
+      "question": "What does the Alpha value in rgba control?",
+      "options": ["Shadow", "Transparency", "Blur", "Brightness"],
+      "answer-index": 1
+    },
+    {
+      "id": 80,
+      "question": "Which is the correct HEX code for blue?",
+      "options": ["#0000FF", "#FF0000", "#00FF00", "#FFFF00"],
+      "answer-index": 0
+    },
+    {
+      "id": 81,
+      "question": "Which CSS property sets the text color?",
+      "options": ["font-color", "color", "text-color", "foreground-color"],
+      "answer-index": 1
+    },
+    {
+      "id": 82,
+      "question": "Which CSS color format includes transparency?",
+      "options": ["hex", "rgb()", "rgba()", "hsl()"],
+      "answer-index": 2
+    },
+    {
+      "id": 83,
+      "question": "Which is the shorthand for #ffffff?",
+      "options": ["#fff", "#ffffff00", "#FFFF", "#ffff"],
+      "answer-index": 0
+    },
+    {
+      "id": 84,
+      "question": "What color does #000 represent?",
+      "options": ["White", "Blue", "Transparent", "Black"],
+      "answer-index": 3
+    },
+    {
+      "id": 85,
+      "question": "What does hsl(0, 100%, 50%) mean?",
+      "options": ["Black", "White", "Pure red", "Transparent"],
+      "answer-index": 2
+    },
+    {
+      "id": 86,
+      "question": "What does the \u2018s\u2019 in hsl stand for?",
+      "options": ["Saturation", "Size", "Style", "Shadow"],
+      "answer-index": 0
+    },
+    {
+      "id": 87,
+      "question": "What does the \u2018l\u2019 in hsl stand for?",
+      "options": ["Line", "Luminosity", "Lightness", "Length"],
+      "answer-index": 2
+    },
+    {
+      "id": 88,
+      "question": "Which format gives you more control over opacity?",
+      "options": ["rgb()", "rgba()", "hex", "named colors"],
+      "answer-index": 1
+    },
+    {
+      "id": 89,
+      "question": "What is the default text color for a webpage?",
+      "options": ["Blue", "Black", "Grey", "Browser-defined"],
+      "answer-index": 3
+    },
+    {
+      "id": 90,
+      "question": "Which value is not a valid CSS color keyword?",
+      "options": ["red", "green", "blur", "yellow"],
+      "answer-index": 2
+    },
+    {
+      "id": 91,
+      "question": "Which tool is used to visually pick colors?",
+      "options": [
+        "Color Selector",
+        "Color Picker",
+        "Paint Box",
+        "HTML Tint Tool"
+      ],
+      "answer-index": 1
+    },
+    {
+      "id": 92,
+      "question": "What\u2019s the max value for RGB color components?",
+      "options": ["255", "100", "360", "512"],
+      "answer-index": 0
+    },
+    {
+      "id": 93,
+      "question": "What value of alpha is fully opaque in rgba()?",
+      "options": ["0", "0.5", "1", "100"],
+      "answer-index": 2
+    },
+    {
+      "id": 94,
+      "question": "What value of alpha is fully transparent?",
+      "options": ["1", "0.5", "255", "0"],
+      "answer-index": 3
+    },
+    {
+      "id": 95,
+      "question": "Which of the following is a named CSS color?",
+      "options": ["skyblue", "#0099ff", "rgb(0,255,0)", "0xff0000"],
+      "answer-index": 0
+    },
+    {
+      "id": 96,
+      "question": "Which color format supports hue rotation?",
+      "options": ["rgb()", "hex", "hsl()", "rgba()"],
+      "answer-index": 2
+    },
+    {
+      "id": 97,
+      "question": "Which is lighter: hsl(0, 100%, 90%) or hsl(0, 100%, 30%)?",
+      "options": ["90%", "30%", "Both are the same", "Depends on RGB"],
+      "answer-index": 0
+    },
+    {
+      "id": 98,
+      "question": "Which property allows background color change?",
+      "options": ["bgcolor", "color", "background-color", "text-bg"],
+      "answer-index": 2
+    },
+    {
+      "id": 99,
+      "question": "What is the value of transparent color in CSS?",
+      "options": [
+        "rgba(0,0,0,1)",
+        "rgba(255,255,255,0.5)",
+        "rgba(0,0,0,0)",
+        "#fff000"
+      ],
+      "answer-index": 2
+    },
+    {
+      "id": 100,
+      "question": "Which property controls text color and accepts color values?",
+      "options": ["font-family", "text-align", "font-style", "color"],
+      "answer-index": 3
+    }
+  ]
+}

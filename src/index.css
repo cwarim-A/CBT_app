@@ -1,0 +1,22 @@
+:root {
+  --light-purple: #6f00ff;
+  --purple-white: #d8aeff;
+  --orange-white: #fcf3e4;
+  --red: #ff2600;
+  --light-red: rgb(204, 0, 255);
+  --grey: rgb(255, 255, 255);
+
+  height: 100%;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0.1px;
+  height: 100%;
+}

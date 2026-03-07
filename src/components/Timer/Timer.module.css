@@ -1,0 +1,5 @@
+.time {
+  font-size: clamp(3rem, 3vw, 4rem);
+  font-family: consolas;
+  color: rgb(112, 112, 112);
+}
