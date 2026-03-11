@@ -1,0 +1,364 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "JavaScript works together with which two technologies?",
+      "options": [
+        "HTML and CSS",
+        "PHP and MySQL",
+        "Python and Java",
+        "C++ and C#"
+      ],
+      "answer-index": 0
+    },
+    {
+      "id": 2,
+      "question": "JavaScript runs directly in the:",
+      "options": ["Server", "Database", "Web browser", "Operating system"],
+      "answer-index": 2
+    },
+    {
+      "id": 3,
+      "question": "Which of the following is an example of a user action JavaScript can respond to?",
+      "options": [
+        "Installing software",
+        "Clicking a button",
+        "Shutting down a computer",
+        "Formatting a hard drive"
+      ],
+      "answer-index": 1
+    },
+    {
+      "id": 4,
+      "question": "JavaScript allows real-time updates by:",
+      "options": [
+        "Reloading the page always",
+        "Updating content without reloading",
+        "Closing the browser",
+        "Restarting the server"
+      ],
+      "answer-index": 1
+    },
+    {
+      "id": 5,
+      "question": "Which of the following statements is TRUE about JavaScript?",
+      "options": [
+        "It is only used for backend development",
+        "It cannot run in browsers",
+        "It improves website interactivity",
+        "It replaces HTML and CSS"
+      ],
+      "answer-index": 2
+    },
+    {
+      "id": 6,
+      "question": "Which property is difficult to apply to inline elements?",
+      "options": ["color", "width and height", "font-size", "text-decoration"],
+      "answer-index": 1
+    },
+    {
+      "id": 7,
+      "question": "JavaScript is known as a:",
+      "options": [
+        "Client-side language",
+        "Styling language",
+        "Database language",
+        "Layout system"
+      ],
+      "answer-index": 0
+    },
+    {
+      "id": 8,
+      "question": "What is Responsive Web Design?",
+      "options": [
+        "Designing websites only for desktop computers",
+        "Designing websites that adapt to different screen sizes",
+        "Designing mobile applications",
+        "Designing static web pages"
+      ],
+      "answer-index": 1
+    },
+    {
+      "id": 9,
+      "question": "Which of the following devices has the smallest screen size?",
+      "options": ["Desktop computer", "Laptop", "Tablet", "Mobile phone"],
+      "answer-index": 3
+    },
+    {
+      "id": 10,
+      "question": "Which value of justify-content places equal space between items?",
+      "options": ["center", "flex-start", "space-around", "space-between"],
+      "answer-index": 3
+    },
+    {
+      "id": 11,
+      "question": "Tablets are generally classified as having:",
+      "options": [
+        "Very small screens",
+        "Medium-sized screens",
+        "Very large screens",
+        "No screens"
+      ],
+      "answer-index": 1
+    },
+    {
+      "id": 12,
+      "question": "Which of the following is a feature of a responsive website?",
+      "options": [
+        "Requires zooming to read text",
+        "Fits the screen properly",
+        "Works only on desktops",
+        "Has fixed-width layouts"
+      ],
+      "answer-index": 1
+    },
+    {
+      "id": 13,
+      "question": "Which layout is most suitable for desktop screens?",
+      "options": [
+        "Single-column",
+        "Multi-column",
+        "Hidden layout",
+        "No layout"
+      ],
+      "answer-index": 1
+    },
+    {
+      "id": 14,
+      "question": "Breakpoints help designers to:",
+      "options": [
+        "Delete code",
+        "Adjust styles at certain widths",
+        "Increase server speed",
+        "Remove layouts"
+      ],
+      "answer-index": 1
+    },
+    {
+      "id": 15,
+      "question": "Media queries help make websites:",
+      "options": ["Static", "Responsive", "Offline", "Printable"],
+      "answer-index": 1
+    },
+    {
+      "id": 16,
+      "question": "A media query applies styles when:",
+      "options": [
+        "The page loads",
+        "A button is clicked",
+        "Certain conditions are met",
+        "The server responds"
+      ],
+      "answer-index": 2
+    },
+    {
+      "id": 17,
+      "question": "Which of the following is a valid media query condition?",
+      "options": [
+        "(color: blue)",
+        "(max-width: 600px)",
+        "(font: 16px)",
+        "(layout: mobile)"
+      ],
+      "answer-index": 1
+    },
+    {
+      "id": 18,
+      "question": "Mobile styling usually uses:",
+      "options": [
+        "Large fonts",
+        "Multi-column layout",
+        "Single-column layout",
+        "Wide display"
+      ],
+      "answer-index": 2
+    },
+    {
+      "id": 19,
+      "question": "Tablet styling typically uses:",
+      "options": [
+        "Single-column layout",
+        "Two-column layout",
+        "No spacing",
+        "Very small fonts"
+      ],
+      "answer-index": 1
+    },
+    {
+      "id": 20,
+      "question": "Which device requires larger buttons for touch screens?",
+      "options": ["Desktop", "Laptop", "Mobile", "Printer"],
+      "answer-index": 2
+    },
+    {
+      "id": 21,
+      "question": "The condition (min-width: 601px) means:",
+      "options": [
+        "Width is 601px or more",
+        "Width is 601px or less",
+        "Width is exactly 601px",
+        "Height is 601px"
+      ],
+      "answer-index": 0
+    },
+    {
+      "id": 22,
+      "question": "Which of the following best describes JavaScript?",
+      "options": [
+        "Server-side language only",
+        "Client-side programming language",
+        "Markup language",
+        "Database management system"
+      ],
+      "answer-index": 1
+    },
+    {
+      "id": 23,
+      "question": "Which keyword is used to combine conditions in media queries?",
+      "options": ["or", "and", "with", "plus"],
+      "answer-index": 1
+    },
+    {
+      "id": 24,
+      "question": "In the example, tablet media query uses:",
+      "options": [
+        "max-width only",
+        "min-width only",
+        "Both min-width and max-width",
+        "height only"
+      ],
+      "answer-index": 2
+    },
+    {
+      "id": 25,
+      "question": "Media queries mainly improve how a website:",
+      "options": [
+        "Stores files",
+        "Looks on different devices",
+        "Connects to servers",
+        "Sends emails"
+      ],
+      "answer-index": 1
+    },
+    {
+      "id": 26,
+      "question": "The symbol used before media in CSS is:",
+      "options": ["#", ".", "@", "&"],
+      "answer-index": 2
+    },
+    {
+      "id": 27,
+      "question": "Which of the following is an example of JavaScript behavior?",
+      "options": [
+        "Creating headings",
+        "Styling text color",
+        "Displaying a message after a button click",
+        "Creating tables"
+      ],
+      "answer-index": 2
+    },
+    {
+      "id": 28,
+      "question": "Real-time updates mean:",
+      "options": [
+        "Reloading the page every time",
+        "Updating content without refreshing",
+        "Restarting the browser",
+        "Shutting down the server"
+      ],
+      "answer-index": 1
+    },
+    {
+      "id": 29,
+      "question": "JavaScript runs inside the:",
+      "options": ["Database", "Server only", "Web browser", "Printer"],
+      "answer-index": 2
+    },
+    {
+      "id": 30,
+      "question": "Form validation using JavaScript helps to:",
+      "options": [
+        "Increase page size",
+        "Check user input before submission",
+        "Style form elements",
+        "Store data permanently"
+      ],
+      "answer-index": 1
+    },
+    {
+      "id": 31,
+      "question": "Which of the following variable declarations is valid in JavaScript?",
+      "options": [
+        "let 2name = \"John\";",
+        "const if = 10;",
+        "var _score = 50;",
+        "let let = 5;"
+      ],
+      "answer-index": 2
+    },
+    {
+      "id": 32,
+      "question": "Which statement about var, let, and const is TRUE?",
+      "options": [
+        "All three are block-scoped.",
+        "var is function-scoped.",
+        "const can always be reassigned.",
+        "let cannot be reassigned."
+      ],
+      "answer-index": 1
+    },
+    {
+      "id": 33,
+      "question": "What will be the data type of the variable below? let x;",
+      "options": ["null", "undefined", "string", "number"],
+      "answer-index": 1
+    },
+    {
+      "id": 34,
+      "question": "Which of the following represents an intentional empty value?",
+      "options": ["undefined", "null", "false", "0"],
+      "answer-index": 1
+    },
+    {
+      "id": 35,
+      "question": "Which of the following is a primitive data type?",
+      "options": ["Array", "Object", "Function", "Boolean"],
+      "answer-index": 3
+    },
+    {
+      "id": 36,
+      "question": "What is the output of: typeof 12345678901234567890n;",
+      "options": ["number", "bigint", "string", "object"],
+      "answer-index": 1
+    },
+    {
+      "id": 37,
+      "question": "Which of the following is a non-primitive (reference) data type?",
+      "options": ["String", "Number", "Object", "Boolean"],
+      "answer-index": 2
+    },
+    {
+      "id": 38,
+      "question": "What will be the result of: typeof true;",
+      "options": ["\"true\"", "array", "Boolean", "object"],
+      "answer-index": 2
+    },
+    {
+      "id": 39,
+      "question": "JavaScript is case-sensitive. Which of the following demonstrates this correctly?",
+      "options": [
+        "age and age are different",
+        "Age and age are different",
+        "AGE and age are the same",
+        "let and Let are the same keyword"
+      ],
+      "answer-index": 1
+    },
+    {
+      "id": 40,
+      "question": "Consider the code: let age = prompt(\"Enter your age:\"); The variable age will store:",
+      "options": ["A number", "A Boolean", "A string", "undefined"],
+      "answer-index": 2
+    }
+  ]
+}

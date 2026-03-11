@@ -5,6 +5,7 @@ import ButtonA from "../../components/ButtonA/ButtonA";
 import Modal from "../../components/Modal/Modal";
 import classes from "./Quiz.module.css";
 import { students as studentsList } from "../../students.json";
+
 import { useNavigate } from "react-router-dom";
 
 const Quiz = ({ student, questionsList, onScoreSubmit }) => {
@@ -17,7 +18,17 @@ const Quiz = ({ student, questionsList, onScoreSubmit }) => {
   const currentStudent = student;
   const navigate = useNavigate();
 
-  const questions = questionsList[currentStudent.subject];
+  // const questions = questionsList[currentStudent.subject];
+  const questions = currentStudent ? questionsList[currentStudent.subject] : [];
+  
+
+  if (!questions || questions.length === 0) {
+    return (
+      <main className={classes.quiz}>
+        <p>No questions found for subject: {currentStudent?.subject}</p>
+      </main>
+    );
+  }
 
   const submitAnswers = () => {
     let userScore = 0;
@@ -30,6 +41,7 @@ const Quiz = ({ student, questionsList, onScoreSubmit }) => {
     });
     setScore(userScore);
     setModalState("on");
+    navigate("/results")
   };
 
   const getGrade = (score) => {
@@ -57,7 +69,7 @@ const Quiz = ({ student, questionsList, onScoreSubmit }) => {
 
   const confirmSubmit = () => {
     const scoreObj = {
-      id: studentsList.length,
+      id: studentsList.length + 1,
       name: student.name,
       className: student.class,
       subject: student.subject,
@@ -119,11 +131,11 @@ const Quiz = ({ student, questionsList, onScoreSubmit }) => {
       </section>
       <section>
         <p className={classes.question}>
-          {questions[currentQuestionIndex].id}.{"  "}
-          {questions[currentQuestionIndex].question}
+          {questions[currentQuestionIndex]?.id}.{"  "}
+          {questions[currentQuestionIndex]?.question}
         </p>
         <ul>
-          {questions[currentQuestionIndex].options.map((option, index) => (
+          {questions[currentQuestionIndex]?.options.map((option, index) => (
             <li key={index}>
               <OptionBox
                 text={option}
@@ -161,7 +173,7 @@ const Quiz = ({ student, questionsList, onScoreSubmit }) => {
           {answers.length} out of {questions.length} questions answered
         </p>
         <div>
-          <div className={classes["question-buttons"]}>
+          {/* <div className={classes["question-buttons"]}>
             {questions.map((question) => (
               <ButtonA
                 key={question.id}
@@ -176,6 +188,25 @@ const Quiz = ({ student, questionsList, onScoreSubmit }) => {
                       )
                     ? "answered"
                     : ""
+                }
+              >
+                {question.id}
+              </ButtonA>
+            ))}
+          </div> */}
+          <div className={classes["question-buttons"]}>
+            {questions.map((question) => (
+              <ButtonA
+                key={question.id}
+                onClick={() => setQuestion(question.id - 1)}
+                style={
+                  currentQuestionIndex === question.id - 1
+                    ? "current"
+                    : answers.some(
+                      (obj) => obj.questionIndex === question.id - 1
+                    )
+                      ? "answered"
+                      : ""
                 }
               >
                 {question.id}

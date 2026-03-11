@@ -29,10 +29,10 @@ const DataTable = ({ data }) => {
         </tr>
       </thead>
       <tbody>
-        {data.map(({ id, name, className, subject, score, average, grade }) => (
-          <tr>
+        {data.map(({ id, name, className, subject, score, average, grade },index) => (
+          <tr key={id}>
             <td>
-              <div className={classes.column}>{parseInt(id) + 1}</div>
+              <div className={classes.column}>{index + 1}</div>
             </td>
             <td>
               <div className={classes.column}>{className}</div>

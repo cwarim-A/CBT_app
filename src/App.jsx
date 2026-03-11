@@ -6,12 +6,14 @@ import MainLayout from "./Layout/MainLayout";
 import { useEffect, useState } from "react";
 import { questions as web_dev_questions } from "./web_dev_questions.json";
 import { questions as tupitube } from "./victoria_junior_high_test_answers_indexed.json";
+import {questions as coding_dev_questions} from "./VHS_dev_questions.json";
 import Quiz from "./pages/Quiz/Quiz";
 import ResultList from "./pages/ResultList/ResultList";
 const App = () => {
   const questionsList = {
     "Web development": web_dev_questions,
-    tupitube: tupitube,
+    "Tupitube": tupitube,
+    "coding for senior secondary": coding_dev_questions
   };
   const [currentStudent, setCurrentStudent] = useState(null);
   const navigate = useNavigate();
@@ -22,13 +24,21 @@ const App = () => {
   };
 
   const onScoreSubmit = async (scoreObj) => {
-    const res = await fetch("/api/students", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(scoreObj),
-    });
+    const existingResults = JSON.parse(localStorage.getItem("examResults")) || [];
+
+    // ✅ Add new result to the array
+    const updatedResults = [...existingResults, scoreObj];
+
+    // ✅ Save back to localStorage
+    localStorage.setItem("examResults", JSON.stringify(updatedResults));
+
+    // const res = await fetch("/api/students", {
+    //   method: "POST",
+    //   headers: {
+    //     "Content-Type": "application/json",
+    //   },
+    //   body: JSON.stringify(scoreObj),
+    // });
     setCurrentStudent(null);
     return;
   };
@@ -54,7 +64,7 @@ const App = () => {
           }
         />
       </Route>
-      <Route path="/results-vhs-120s2" element={<ResultList />} />
+      <Route path="/results" element={<ResultList />} />
     </Routes>
   );
 };

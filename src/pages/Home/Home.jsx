@@ -25,7 +25,7 @@ const Home = ({ getStudent }) => {
             <span>Name:</span>
             <input
               type="text"
-              placeholder="e.g. Surname, Firstname Lastname"
+              placeholder="e.g. Surname, FirstName LastName"
               value={studentName}
               id="name"
               onChange={(e) => setStudentName(e.target.value)}
@@ -41,7 +41,7 @@ const Home = ({ getStudent }) => {
             >
               <option value="JSS1 - JSS2">JSS1 - JSS2</option>
               <option value="JSS3 - SS1">JSS3 - SS1</option>
-              <option value="SS1 - SS3">SS2 - SS3</option>
+              <option value="SS1 - SS3">SS3</option>
             </select>
           </label>
           <label htmlFor="subject">
@@ -54,6 +54,7 @@ const Home = ({ getStudent }) => {
               <option value="Web development">Web development</option>
               <option value="tupitube">Python</option>
               <option value="Scratch">Coding Foundation</option>
+              <option value="coding for senior secondary">Coding for Senior Secondary</option>
               <option value="Code.org">Code.org</option>
             </select>
           </label>
