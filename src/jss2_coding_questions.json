@@ -1,0 +1,264 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "A programming language is used to:",
+      "options": [
+        "Write instructions for a computer",
+        "Draw pictures",
+        "Design buildings",
+        "Play music"
+      ],
+      "answer-index": 0
+    },
+    {
+      "id": 2,
+      "question": "Which of the following is a programming language?",
+      "options": ["Python", "HTML", "Windows", "Google"],
+      "answer-index": 0
+    },
+    {
+      "id": 3,
+      "question": "Programming languages help humans to:",
+      "options": [
+        "Communicate with computers",
+        "Repair computers",
+        "Build hardware",
+        "Delete files"
+      ],
+      "answer-index": 0
+    },
+    {
+      "id": 4,
+      "question": "A set of instructions given to a computer is called a:",
+      "options": ["Program", "Folder", "Document", "Network"],
+      "answer-index": 0
+    },
+    {
+      "id": 5,
+      "question": "Which of the following is NOT a programming language?",
+      "options": ["Python", "Java", "Microsoft Word", "C++"],
+      "answer-index": 2
+    },
+    {
+      "id": 6,
+      "question": "Python is mainly used for:",
+      "options": ["Programming", "Cooking", "Painting", "Driving"],
+      "answer-index": 0
+    },
+    {
+      "id": 7,
+      "question": "Python is known for being:",
+      "options": [
+        "Easy to read and write",
+        "Very difficult to learn",
+        "Only used for games",
+        "Only used for hardware"
+      ],
+      "answer-index": 0
+    },
+    {
+      "id": 8,
+      "question": "Python programs are written in files with which extension?",
+      "options": [".py", ".html", ".doc", ".jpg"],
+      "answer-index": 0
+    },
+    {
+      "id": 9,
+      "question": "Who created Python?",
+      "options": [
+        "Guido van Rossum",
+        "Bill Gates",
+        "Mark Zuckerberg",
+        "Steve Jobs"
+      ],
+      "answer-index": 0
+    },
+    {
+      "id": 10,
+      "question": "Python is an example of a:",
+      "options": [
+        "Programming language",
+        "Web browser",
+        "Operating system",
+        "Text editor"
+      ],
+      "answer-index": 0
+    },
+    {
+      "id": 11,
+      "question": "Syntax in programming refers to:",
+      "options": [
+        "The rules of writing code",
+        "The speed of a computer",
+        "The color of the code",
+        "The size of the program"
+      ],
+      "answer-index": 0
+    },
+    {
+      "id": 12,
+      "question": "Python uses indentation to:",
+      "options": [
+        "Show code structure",
+        "Add colors",
+        "Create files",
+        "Install programs"
+      ],
+      "answer-index": 0
+    },
+    {
+      "id": 13,
+      "question": "Which symbol is commonly used for comments in Python?",
+      "options": ["#", "@", "$", "&"],
+      "answer-index": 0
+    },
+    {
+      "id": 14,
+      "question": "Which of the following is a correct Python statement?",
+      "options": [
+        "print(\"Hello\")",
+        "Print Hello",
+        "print Hello",
+        "hello print"
+      ],
+      "answer-index": 0
+    },
+    {
+      "id": 15,
+      "question": "Python code is usually written in:",
+      "options": ["Lines", "Circles", "Tables", "Images"],
+      "answer-index": 0
+    },
+    {
+      "id": 16,
+      "question": "The print() function in Python is used to:",
+      "options": [
+        "Display output on the screen",
+        "Delete files",
+        "Save documents",
+        "Create folders"
+      ],
+      "answer-index": 0
+    },
+    {
+      "id": 17,
+      "question": "Which function is used to get input from a user?",
+      "options": ["input()", "print()", "open()", "save()"],
+      "answer-index": 0
+    },
+    {
+      "id": 18,
+      "question": "What will this code do? print(\"Hello World\")",
+      "options": [
+        "Display \"Hello World\" on the screen",
+        "Ask for input",
+        "Delete data",
+        "Stop the program"
+      ],
+      "answer-index": 0
+    },
+    {
+      "id": 19,
+      "question": "The input() function allows the program to:",
+      "options": [
+        "Receive information from the user",
+        "Print a message",
+        "Create variables automatically",
+        "Delete files"
+      ],
+      "answer-index": 0
+    },
+    {
+      "id": 20,
+      "question": "What does this code do? name = input(\"Enter your name: \")",
+      "options": [
+        "Stores the user's name",
+        "Deletes the name",
+        "Prints the name automatically",
+        "Stops the program"
+      ],
+      "answer-index": 0
+    },
+    {
+      "id": 21,
+      "question": "A variable in Python is used to:",
+      "options": [
+        "Store data",
+        "Delete programs",
+        "Draw graphics",
+        "Install software"
+      ],
+      "answer-index": 0
+    },
+    {
+      "id": 22,
+      "question": "Which of the following is a valid variable name?",
+      "options": ["age", "2age", "@age", "age-name"],
+      "answer-index": 0
+    },
+    {
+      "id": 23,
+      "question": "What does this code do? x = 10",
+      "options": [
+        "Stores 10 in variable x",
+        "Prints 10",
+        "Deletes 10",
+        "Stops the program"
+      ],
+      "answer-index": 0
+    },
+    {
+      "id": 24,
+      "question": "Variables can store:",
+      "options": ["Numbers", "Text", "Both numbers and text", "Only images"],
+      "answer-index": 2
+    },
+    {
+      "id": 25,
+      "question": "Which symbol is used to assign a value to a variable in Python?",
+      "options": ["=", "+", "*", "/"],
+      "answer-index": 0
+    },
+    {
+      "id": 26,
+      "question": "A condition in programming is used to:",
+      "options": ["Make decisions", "Print text", "Save files", "Play music"],
+      "answer-index": 0
+    },
+    {
+      "id": 27,
+      "question": "Which keyword is used to start a condition in Python?",
+      "options": ["if", "loop", "print", "input"],
+      "answer-index": 0
+    },
+    {
+      "id": 28,
+      "question": "What does the else statement do?",
+      "options": [
+        "Runs when the condition is false",
+        "Stops the program",
+        "Prints a message",
+        "Creates a variable"
+      ],
+      "answer-index": 0
+    },
+    {
+      "id": 29,
+      "question": "Which operator checks if two values are equal?",
+      "options": ["==", "=", "+", "/"],
+      "answer-index": 0
+    },
+    {
+      "id": 30,
+      "question": "What will this code check? if age > 18:",
+      "options": [
+        "If age is greater than 18",
+        "If age is equal to 18",
+        "If age is less than 18",
+        "If age is zero"
+      ],
+      "answer-index": 0
+    }
+  ]
+}

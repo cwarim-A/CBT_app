@@ -1,0 +1,264 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is a sprite in Scratch?",
+      "options": [
+        "A background image",
+        "A character or object that performs actions",
+        "A sound effect",
+        "A programming error"
+      ],
+      "answer-index": 1
+    },
+    {
+      "id": 2,
+      "question": "The stage in Scratch is best described as:",
+      "options": [
+        "The area where sprites perform actions",
+        "A tool for adding sounds",
+        "A block for movement",
+        "A variable storage area"
+      ],
+      "answer-index": 0
+    },
+    {
+      "id": 3,
+      "question": "How many stages can a Scratch project have at a time?",
+      "options": ["One", "Two", "Five", "Unlimited"],
+      "answer-index": 0
+    },
+    {
+      "id": 4,
+      "question": "Which of the following can a sprite do?",
+      "options": ["Move", "Speak", "Change costumes", "All of the above"],
+      "answer-index": 3
+    },
+    {
+      "id": 5,
+      "question": "What is the background of the stage called?",
+      "options": ["Costume", "Sprite", "Backdrop", "Script"],
+      "answer-index": 2
+    },
+    {
+      "id": 6,
+      "question": "Which block is used to move a sprite forward?",
+      "options": ["Move 10 steps", "Say Hello", "Play sound", "Change costume"],
+      "answer-index": 0
+    },
+    {
+      "id": 7,
+      "question": "Which block makes a sprite turn left or right?",
+      "options": ["Move block", "Turn block", "Sound block", "Variable block"],
+      "answer-index": 1
+    },
+    {
+      "id": 8,
+      "question": "Control blocks are mainly used to:",
+      "options": [
+        "Manage how scripts run",
+        "Change colors",
+        "Draw shapes",
+        "Edit images"
+      ],
+      "answer-index": 0
+    },
+    {
+      "id": 9,
+      "question": "Which control block pauses a script for a period of time?",
+      "options": ["Wait block", "Move block", "Turn block", "Say block"],
+      "answer-index": 0
+    },
+    {
+      "id": 10,
+      "question": "Which block starts a program when the green flag is clicked?",
+      "options": [
+        "When green flag clicked",
+        "Move 10 steps",
+        "Repeat block",
+        "Play sound"
+      ],
+      "answer-index": 0
+    },
+    {
+      "id": 11,
+      "question": "A loop is used to:",
+      "options": [
+        "Repeat instructions",
+        "Stop the program",
+        "Add sounds",
+        "Draw backgrounds"
+      ],
+      "answer-index": 0
+    },
+    {
+      "id": 12,
+      "question": "Which block repeats actions forever?",
+      "options": ["Repeat 10", "Forever", "Wait", "Stop"],
+      "answer-index": 1
+    },
+    {
+      "id": 13,
+      "question": "Which block repeats an action a specific number of times?",
+      "options": [
+        "Repeat block",
+        "Forever block",
+        "If block",
+        "Variable block"
+      ],
+      "answer-index": 0
+    },
+    {
+      "id": 14,
+      "question": "What is the main purpose of loops in programming?",
+      "options": [
+        "To avoid repeating the same code many times",
+        "To create sprites",
+        "To play music",
+        "To change colors"
+      ],
+      "answer-index": 0
+    },
+    {
+      "id": 15,
+      "question": "Which category contains loop blocks in Scratch?",
+      "options": ["Motion", "Control", "Looks", "Sound"],
+      "answer-index": 1
+    },
+    {
+      "id": 16,
+      "question": "A condition checks whether something is:",
+      "options": [
+        "True or False",
+        "Blue or Red",
+        "Big or Small",
+        "Fast or Slow"
+      ],
+      "answer-index": 0
+    },
+    {
+      "id": 17,
+      "question": "The if block is used to:",
+      "options": [
+        "Make decisions in a program",
+        "Play music",
+        "Move sprites",
+        "Draw backgrounds"
+      ],
+      "answer-index": 0
+    },
+    {
+      "id": 18,
+      "question": "What does an if-else block do?",
+      "options": [
+        "Runs only one action",
+        "Chooses between two actions",
+        "Stops the program",
+        "Creates a sprite"
+      ],
+      "answer-index": 1
+    },
+    {
+      "id": 19,
+      "question": "Which symbol is often used to compare values?",
+      "options": ["=", "@", "$", "#"],
+      "answer-index": 0
+    },
+    {
+      "id": 20,
+      "question": "A condition can check if a sprite is:",
+      "options": [
+        "Touching another sprite",
+        "Playing a sound",
+        "Changing costume",
+        "Adding variables"
+      ],
+      "answer-index": 0
+    },
+    {
+      "id": 21,
+      "question": "A variable is used to:",
+      "options": [
+        "Store information",
+        "Draw shapes",
+        "Play music",
+        "Create sprites"
+      ],
+      "answer-index": 0
+    },
+    {
+      "id": 22,
+      "question": "Which of the following can be stored in a variable?",
+      "options": ["Score", "Time", "Player name", "All of the above"],
+      "answer-index": 3
+    },
+    {
+      "id": 23,
+      "question": "Which block changes the value of a variable?",
+      "options": ["Set variable", "Move block", "Turn block", "Wait block"],
+      "answer-index": 0
+    },
+    {
+      "id": 24,
+      "question": "Variables are useful in games to keep track of:",
+      "options": ["Score", "Lives", "Time", "All of the above"],
+      "answer-index": 3
+    },
+    {
+      "id": 25,
+      "question": "Where are variable blocks found in Scratch?",
+      "options": [
+        "Motion category",
+        "Variables category",
+        "Sound category",
+        "Looks category"
+      ],
+      "answer-index": 1
+    },
+    {
+      "id": 26,
+      "question": "Which block is used to play a sound in Scratch?",
+      "options": ["Play sound block", "Move block", "Turn block", "Wait block"],
+      "answer-index": 0
+    },
+    {
+      "id": 27,
+      "question": "Animation in Scratch is created mainly by:",
+      "options": [
+        "Changing costumes quickly",
+        "Deleting sprites",
+        "Adding variables",
+        "Stopping scripts"
+      ],
+      "answer-index": 0
+    },
+    {
+      "id": 28,
+      "question": "Which category contains sound blocks?",
+      "options": ["Sound", "Motion", "Control", "Looks"],
+      "answer-index": 0
+    },
+    {
+      "id": 29,
+      "question": "A sprite can make a sound when:",
+      "options": [
+        "A key is pressed",
+        "The green flag is clicked",
+        "It touches another sprite",
+        "All of the above"
+      ],
+      "answer-index": 3
+    },
+    {
+      "id": 30,
+      "question": "What helps create smooth animation in Scratch?",
+      "options": [
+        "Changing costumes repeatedly",
+        "Using only one costume",
+        "Removing sprites",
+        "Turning off scripts"
+      ],
+      "answer-index": 0
+    }
+  ]
+}

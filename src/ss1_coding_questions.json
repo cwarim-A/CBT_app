@@ -1,0 +1,269 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which of the following is used with a for loop?",
+      "options": ["input()", "range()", "print()", "type()"],
+      "answer-index": 1
+    },
+    {
+      "id": 2,
+      "question": "Python is best described as a ______",
+      "options": [
+        "Hardware device",
+        "Programming language",
+        "Operating system",
+        "Web browser"
+      ],
+      "answer-index": 1
+    },
+    {
+      "id": 3,
+      "question": "Which keyword is used to stop a loop?",
+      "options": ["stop", "break", "end", "exit"],
+      "answer-index": 1
+    },
+    {
+      "id": 4,
+      "question": "Which data type represents decimal numbers?",
+      "options": ["int", "float", "str", "bool"],
+      "answer-index": 1
+    },
+    {
+      "id": 5,
+      "question": "Which keyword allows checking multiple conditions?",
+      "options": ["else", "elif", "loop", "next"],
+      "answer-index": 1
+    },
+    {
+      "id": 6,
+      "question": "Which symbol is used to write comments in Python?",
+      "options": ["//", "#", "<!-- -->", "**"],
+      "answer-index": 1
+    },
+    {
+      "id": 7,
+      "question": "Which loop runs while a condition is true?",
+      "options": ["for", "while", "if", "break"],
+      "answer-index": 1
+    },
+    {
+      "id": 8,
+      "question": "Which of the following is a Boolean value?",
+      "options": ["Yes", "True", "1", "\"True\""],
+      "answer-index": 1
+    },
+    {
+      "id": 9,
+      "question": "Which of the following is NOT a Python keyword?",
+      "options": ["if", "else", "loop", "for"],
+      "answer-index": 2
+    },
+    {
+      "id": 10,
+      "question": "Which function converts a string to an integer?",
+      "options": ["int()", "str()", "float()", "bool()"],
+      "answer-index": 0
+    },
+    {
+      "id": 11,
+      "question": "Which of the following best describes programming?",
+      "options": [
+        "Writing stories",
+        "Giving instructions to a computer",
+        "Drawing diagrams",
+        "Playing games"
+      ],
+      "answer-index": 1
+    },
+    {
+      "id": 12,
+      "question": "Which of the following is used to combine conditions?",
+      "options": ["join", "and", "add", "merge"],
+      "answer-index": 1
+    },
+    {
+      "id": 13,
+      "question": "Which data type represents text?",
+      "options": ["int", "float", "str", "bool"],
+      "answer-index": 2
+    },
+    {
+      "id": 14,
+      "question": "Which of the following is a correct variable name?",
+      "options": ["2name", "my-name", "my_name", "class"],
+      "answer-index": 2
+    },
+    {
+      "id": 15,
+      "question": "Which keyword is used to make decisions in Python?",
+      "options": ["loop", "if", "for", "run"],
+      "answer-index": 1
+    },
+    {
+      "id": 16,
+      "question": "Which of the following is NOT allowed in variable names?",
+      "options": ["Letters", "Numbers", "Hyphens (-)", "Underscores (_)"],
+      "answer-index": 2
+    },
+    {
+      "id": 17,
+      "question": "Which of the following is used to collect input from the user?",
+      "options": ["print()", "input()", "read()", "get()"],
+      "answer-index": 1
+    },
+    {
+      "id": 18,
+      "question": "Which of the following is a logical operator?",
+      "options": ["+", "and", "=", "print"],
+      "answer-index": 1
+    },
+    {
+      "id": 19,
+      "question": "Which symbol is used to assign a value to a variable?",
+      "options": ["==", "=", "!=", ">"],
+      "answer-index": 1
+    },
+    {
+      "id": 20,
+      "question": "Which of the following is a built-in Python function?",
+      "options": ["print()", "show()", "display()", "write()"],
+      "answer-index": 0
+    },
+    {
+      "id": 21,
+      "question": "Which loop is used when the number of repetitions is known?",
+      "options": ["while", "for", "if", "else"],
+      "answer-index": 1
+    },
+    {
+      "id": 22,
+      "question": "Which keyword is used when a condition is false?",
+      "options": ["elif", "else", "then", "do"],
+      "answer-index": 1
+    },
+    {
+      "id": 23,
+      "question": "Which of the following is a comparison operator?",
+      "options": ["+", "=", "==", "print"],
+      "answer-index": 2
+    },
+    {
+      "id": 24,
+      "question": "Which data type would you use to store True or False values?",
+      "options": ["int", "float", "str", "bool"],
+      "answer-index": 3
+    },
+    {
+      "id": 25,
+      "question": "Which of the following best describes a loop?",
+      "options": [
+        "A decision statement",
+        "A repeated action",
+        "A data type",
+        "A function"
+      ],
+      "answer-index": 1
+    },
+    {
+      "id": 26,
+      "question": "Which of the following is an integer?",
+      "options": ["\"10\"", "10", "10.5", "Ten"],
+      "answer-index": 1
+    },
+    {
+      "id": 27,
+      "question": "Which function is used to convert a number to a string?",
+      "options": ["int()", "str()", "float()", "bool()"],
+      "answer-index": 1
+    },
+    {
+      "id": 28,
+      "question": "Python is case ______",
+      "options": ["insensitive", "sensitive", "ignored", "none"],
+      "answer-index": 1
+    },
+    {
+      "id": 29,
+      "question": "Which of the following represents a string?",
+      "options": ["5", "\"Hello\"", "3.5", "True"],
+      "answer-index": 1
+    },
+    {
+      "id": 30,
+      "question": "Which of the following is NOT a Python data type?",
+      "options": ["int", "float", "char", "str"],
+      "answer-index": 2
+    },
+    {
+      "id": 31,
+      "question": "The range() function is used to ______",
+      "options": [
+        "Store values",
+        "Generate numbers",
+        "Compare values",
+        "Print output"
+      ],
+      "answer-index": 1
+    },
+    {
+      "id": 32,
+      "question": "Which operator means “not equal to”?",
+      "options": ["=", "==", "!=", ">="],
+      "answer-index": 2
+    },
+    {
+      "id": 33,
+      "question": "Which keyword skips one iteration of a loop?",
+      "options": ["pass", "break", "continue", "skip"],
+      "answer-index": 2
+    },
+    {
+      "id": 34,
+      "question": "Python programs are saved with which file extension?",
+      "options": [".java", ".py", ".exe", ".html"],
+      "answer-index": 1
+    },
+    {
+      "id": 35,
+      "question": "Logical AND is used to ______",
+      "options": [
+        "Add numbers",
+        "Combine conditions",
+        "Print output",
+        "Loop through values"
+      ],
+      "answer-index": 1
+    },
+    {
+      "id": 36,
+      "question": "Which of the following is used to check the data type of a value?",
+      "options": ["check()", "typeof()", "type()", "datatype()"],
+      "answer-index": 2
+    },
+    {
+      "id": 37,
+      "question": "An infinite loop is a loop that ______",
+      "options": ["Stops immediately", "Runs forever", "Runs once", "Skips"],
+      "answer-index": 1
+    },
+    {
+      "id": 38,
+      "question": "Which bracket is used for function calls in Python?",
+      "options": ["[]", "{}", "()", "<>"],
+      "answer-index": 2
+    },
+    {
+      "id": 39,
+      "question": "Python is a ______ level language",
+      "options": ["Low", "Machine", "High", "Binary"],
+      "answer-index": 2
+    },
+    {
+      "id": 40,
+      "question": "Which of the following is used to display output in Python?",
+      "options": ["input()", "print()", "show()", "display()"],
+      "answer-index": 1
+    }
+  ]
+}

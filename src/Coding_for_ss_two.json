@@ -1,0 +1,359 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "JavaScript is mainly used to make websites:",
+      "options": ["Static", "Interactive", "Printed", "Offline"],
+      "answer-index": 1
+    },
+    {
+      "id": 2,
+      "question": "Which of the following best describes JavaScript?",
+      "options": [
+        "A styling language",
+        "A markup language",
+        "A programming language",
+        "A database"
+      ],
+      "answer-index": 2
+    },
+    {
+      "id": 3,
+      "question": "JavaScript is known as a:",
+      "options": [
+        "Client-side language",
+        "Styling language",
+        "Database language",
+        "Layout system"
+      ],
+      "answer-index": 0
+    },
+    {
+      "id": 4,
+      "question": "Which of these is NOT controlled by JavaScript?",
+      "options": [
+        "User interaction",
+        "Form validation",
+        "Website structure",
+        "Dynamic content"
+      ],
+      "answer-index": 2
+    },
+    {
+      "id": 5,
+      "question": "JavaScript can respond to which of the following?",
+      "options": [
+        "Mouse clicks",
+        "Keyboard typing",
+        "Scrolling",
+        "All of the above"
+      ],
+      "answer-index": 3
+    },
+    {
+      "id": 6,
+      "question": "Which box model component affects the distance between two adjacent elements?",
+      "options": ["Padding", "Border", "Content", "Margin"],
+      "answer-index": 3
+    },
+    {
+      "id": 7,
+      "question": "Real-time updates mean:",
+      "options": [
+        "Reloading the page every time",
+        "Updating content without refreshing",
+        "Restarting the browser",
+        "Shutting down the server"
+      ],
+      "answer-index": 1
+    },
+    {
+      "id": 8,
+      "question": "JavaScript runs inside the:",
+      "options": ["Database", "Server only", "Web browser", "Printer"],
+      "answer-index": 2
+    },
+    {
+      "id": 9,
+      "question": "Which of the following is NOT a common value of the display property?",
+      "options": ["block", "inline", "flex", "none of the above"],
+      "answer-index": 3
+    },
+    {
+      "id": 10,
+      "question": "JavaScript helps websites become:",
+      "options": [
+        "Less functional",
+        "More dynamic",
+        "More rigid",
+        "Offline-only"
+      ],
+      "answer-index": 1
+    },
+    {
+      "id": 11,
+      "question": "Which of the following improves engagement on websites?",
+      "options": [
+        "Static text",
+        "Interactive features",
+        "Plain layouts",
+        "Fixed pages"
+      ],
+      "answer-index": 1
+    },
+    {
+      "id": 12,
+      "question": "Which CSS rule turns an element into a flex container?",
+      "options": [
+        "position: flex;",
+        "display: block;",
+        "display: flex;",
+        "flex: container;"
+      ],
+      "answer-index": 2
+    },
+    {
+      "id": 13,
+      "question": "Which of the following variable declarations is valid in JavaScript?",
+      "options": [
+        "let 2name = \"John\";",
+        "const if = 10;",
+        "var _score = 50;",
+        "let let = 5;"
+      ],
+      "answer-index": 2
+    },
+    {
+      "id": 14,
+      "question": "Which statement about var, let, and const is TRUE?",
+      "options": [
+        "All three are block-scoped.",
+        "var is function-scoped.",
+        "const can always be reassigned.",
+        "let cannot be reassigned."
+      ],
+      "answer-index": 1
+    },
+    {
+      "id": 15,
+      "question": "When display: flex is applied, flex items are arranged how by default?",
+      "options": ["Vertically", "Horizontally", "Randomly", "Diagonally"],
+      "answer-index": 1
+    },
+    {
+      "id": 16,
+      "question": "What will be the data type of the variable below? let x;",
+      "options": ["null", "undefined", "string", "number"],
+      "answer-index": 1
+    },
+    {
+      "id": 17,
+      "question": "Which of the following represents an intentional empty value?",
+      "options": ["undefined", "null", "false", "0"],
+      "answer-index": 1
+    },
+    {
+      "id": 18,
+      "question": "Which property aligns items along the cross axis?",
+      "options": [
+        "justify-content",
+        "align-items",
+        "display",
+        "flex-direction"
+      ],
+      "answer-index": 1
+    },
+    {
+      "id": 19,
+      "question": "Media queries are a feature of which language?",
+      "options": ["HTML", "JavaScript", "CSS", "Python"],
+      "answer-index": 2
+    },
+    {
+      "id": 20,
+      "question": "Media queries are mainly used to:",
+      "options": [
+        "Create animations",
+        "Apply styles based on screen size",
+        "Store data",
+        "Connect databases"
+      ],
+      "answer-index": 1
+    },
+    {
+      "id": 21,
+      "question": "Media queries help make websites:",
+      "options": ["Static", "Responsive", "Offline", "Printable"],
+      "answer-index": 1
+    },
+    {
+      "id": 22,
+      "question": "The correct basic syntax of a media query begins with:",
+      "options": ["#media", "media()", "@media", "media:"],
+      "answer-index": 2
+    },
+    {
+      "id": 23,
+      "question": "Which of the following is a valid media query condition?",
+      "options": [
+        "(color: blue)",
+        "(max-width: 600px)",
+        "(font: 16px)",
+        "(layout: mobile)"
+      ],
+      "answer-index": 1
+    },
+    {
+      "id": 24,
+      "question": "The rule @media (max-width: 600px) means the styles apply when:",
+      "options": [
+        "Width is exactly 600px",
+        "Width is 600px or less",
+        "Width is above 600px",
+        "Height is 600px"
+      ],
+      "answer-index": 1
+    },
+    {
+      "id": 25,
+      "question": "Breakpoints are:",
+      "options": [
+        "JavaScript errors",
+        "Specific screen widths where layout changes",
+        "CSS colors",
+        "HTML tags"
+      ],
+      "answer-index": 1
+    },
+    {
+      "id": 26,
+      "question": "According to the document, mobile breakpoint is:",
+      "options": ["Above 900px", "601px-900px", "Up to 600px", "Exactly 600px"],
+      "answer-index": 2
+    },
+    {
+      "id": 27,
+      "question": "Tablet breakpoint range is:",
+      "options": ["0-600px", "601px-900px", "Above 900px", "900px only"],
+      "answer-index": 1
+    },
+    {
+      "id": 28,
+      "question": "Desktop breakpoint is:",
+      "options": ["Below 600px", "601px-900px", "Above 900px", "600px-800px"],
+      "answer-index": 2
+    },
+    {
+      "id": 29,
+      "question": "Mobile styling usually uses:",
+      "options": [
+        "Large fonts",
+        "Multi-column layout",
+        "Single-column layout",
+        "Wide display"
+      ],
+      "answer-index": 2
+    },
+    {
+      "id": 30,
+      "question": "Tablet styling typically uses:",
+      "options": [
+        "Single-column layout",
+        "Two-column layout",
+        "No spacing",
+        "Very small fonts"
+      ],
+      "answer-index": 1
+    },
+    {
+      "id": 31,
+      "question": "Desktop styling usually includes:",
+      "options": [
+        "Smaller font sizes",
+        "Single-column layout",
+        "Larger font sizes",
+        "Touch buttons only"
+      ],
+      "answer-index": 2
+    },
+    {
+      "id": 32,
+      "question": "Which device requires larger buttons for touch screens?",
+      "options": ["Desktop", "Laptop", "Mobile", "Printer"],
+      "answer-index": 2
+    },
+    {
+      "id": 33,
+      "question": "Breakpoints help designers to:",
+      "options": [
+        "Delete code",
+        "Adjust styles at certain widths",
+        "Increase server speed",
+        "Remove layouts"
+      ],
+      "answer-index": 1
+    },
+    {
+      "id": 34,
+      "question": "Which display value hides an element completely from the webpage?",
+      "options": ["block", "inline", "none", "inline-block"],
+      "answer-index": 2
+    },
+    {
+      "id": 35,
+      "question": "A responsive website automatically adjusts its:",
+      "options": [
+        "Database",
+        "Server",
+        "Layout, text, and images",
+        "Programming language"
+      ],
+      "answer-index": 2
+    },
+    {
+      "id": 36,
+      "question": "In Flexbox, what do we call the child elements inside a flex container?",
+      "options": ["Flex blocks", "Flex rows", "Flex items", "Flex units"],
+      "answer-index": 2
+    },
+    {
+      "id": 37,
+      "question": "Which Flexbox value aligns items to the middle vertically within a container?",
+      "options": ["flex-start", "space-between", "center", "flex-end"],
+      "answer-index": 2
+    },
+    {
+      "id": 38,
+      "question": "When justify-content: space-around is used, what happens?",
+      "options": [
+        "Items move to the left",
+        "Items stack vertically",
+        "Space is added only between items",
+        "Space is added around each item"
+      ],
+      "answer-index": 3
+    },
+    {
+      "id": 39,
+      "question": "What does the term responsiveness mean in web design?",
+      "options": [
+        "Website speed only",
+        "Website security",
+        "Ability to adapt to different screen sizes",
+        "Ability to store data"
+      ],
+      "answer-index": 2
+    },
+    {
+      "id": 40,
+      "question": "Which layout is most suitable for desktop screens?",
+      "options": [
+        "Single-column",
+        "Multi-column",
+        "Hidden layout",
+        "No layout"
+      ],
+      "answer-index": 1
+    }
+  ]
+}

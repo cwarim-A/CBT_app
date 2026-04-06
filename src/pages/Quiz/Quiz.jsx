@@ -9,7 +9,7 @@ import { students as studentsList } from "../../students.json";
 import { useNavigate } from "react-router-dom";
 
 const Quiz = ({ student, questionsList, onScoreSubmit }) => {
-  const time = 20 * 60;
+  const time = 15 * 60;
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [selectedOption, setSelectedOption] = useState("");
   const [answers, setAnswers] = useState([]);
@@ -41,7 +41,7 @@ const Quiz = ({ student, questionsList, onScoreSubmit }) => {
     });
     setScore(userScore);
     setModalState("on");
-    navigate("/results")
+   
   };
 
   const getGrade = (score) => {
@@ -67,20 +67,46 @@ const Quiz = ({ student, questionsList, onScoreSubmit }) => {
     }
   };
 
+  // const confirmSubmit = () => {
+  //   const scoreObj = {
+  //     id: studentsList.length + 1,
+  //     name: student.name,
+  //     className: student.class,
+  //     subject: student.subject,
+  //     score: score,
+  //     average: `${(score / questions.length) * 100}%`,
+  //     grade: getGrade(score),
+  //   };
+  //   onScoreSubmit(scoreObj);
+  //   alert("Exam submitted successfully!");
+  //   navigate("/results")
+    
+  // };
+
   const confirmSubmit = () => {
+    // recalculate to avoid stale score state
+    let userScore = 0;
+    answers.forEach(({ questionIndex, selectedOption }) => {
+      if (selectedOption === `option${questions[questionIndex]["answer-index"]}`) {
+        userScore++;
+      }
+    });
+
     const scoreObj = {
       id: studentsList.length + 1,
       name: student.name,
       className: student.class,
       subject: student.subject,
-      score: score,
-      average: `${(score / questions.length) * 100}%`,
-      grade: getGrade(score),
+      score: userScore,
+      average: `${(userScore / questions.length) * 100}%`,
+      grade: getGrade(userScore),
     };
     onScoreSubmit(scoreObj);
     alert("Exam submitted successfully!");
-    navigate("/");
+    navigate("/results");  
   };
+
+
 
   const handleOptionChange = (e) => {
     setSelectedOption(e.target.value);

@@ -1,4 +1,4 @@
-import {  useState } from "react";
+
 import DataTable from "../../components/DataTable/DataTable";
 import classes from "./ResultList.module.css";
 
