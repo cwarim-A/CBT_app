@@ -2,263 +2,323 @@
   "questions": [
     {
       "id": 1,
-      "question": "What is a sprite in Scratch?",
+      "question": "What does ICT stand for?",
       "options": [
-        "A background image",
-        "A character or object that performs actions",
-        "A sound effect",
-        "A programming error"
+        "Integrated Computer Technology",
+        "Information and Communication Technology",
+        "Internet Communication Tools",
+        "Internal Computer Technology"
       ],
       "answer-index": 1
     },
     {
       "id": 2,
-      "question": "The stage in Scratch is best described as:",
+      "question": "A computer is best described as a device that:",
       "options": [
-        "The area where sprites perform actions",
-        "A tool for adding sounds",
-        "A block for movement",
-        "A variable storage area"
+        "Only stores data",
+        "Processes data into information",
+        "Only displays images",
+        "Connects to the internet"
       ],
-      "answer-index": 0
+      "answer-index": 1
     },
     {
       "id": 3,
-      "question": "How many stages can a Scratch project have at a time?",
-      "options": ["One", "Two", "Five", "Unlimited"],
+      "question": "Which of the following is an example of ICT?",
+      "options": ["Radio", "Chalkboard", "Abacus", "Pencil"],
       "answer-index": 0
     },
     {
       "id": 4,
-      "question": "Which of the following can a sprite do?",
-      "options": ["Move", "Speak", "Change costumes", "All of the above"],
-      "answer-index": 3
+      "question": "Which device is used to input data into a computer?",
+      "options": ["Monitor", "Keyboard", "Printer", "Speaker"],
+      "answer-index": 1
     },
     {
       "id": 5,
-      "question": "What is the background of the stage called?",
-      "options": ["Costume", "Sprite", "Backdrop", "Script"],
+      "question": "The main function of a computer is to:",
+      "options": [
+        "Sleep",
+        "Calculate only",
+        "Process and store data",
+        "Print documents"
+      ],
       "answer-index": 2
     },
     {
       "id": 6,
-      "question": "Which block is used to move a sprite forward?",
-      "options": ["Move 10 steps", "Say Hello", "Play sound", "Change costume"],
-      "answer-index": 0
-    },
-    {
-      "id": 7,
-      "question": "Which block makes a sprite turn left or right?",
-      "options": ["Move block", "Turn block", "Sound block", "Variable block"],
+      "question": "Which part of the computer is known as the \"brain\"?",
+      "options": ["Monitor", "CPU", "Keyboard", "Mouse"],
       "answer-index": 1
     },
     {
+      "id": 7,
+      "question": "Which of the following is an input device?",
+      "options": ["Printer", "Speaker", "Mouse", "Monitor"],
+      "answer-index": 2
+    },
+    {
       "id": 8,
-      "question": "Control blocks are mainly used to:",
-      "options": [
-        "Manage how scripts run",
-        "Change colors",
-        "Draw shapes",
-        "Edit images"
-      ],
-      "answer-index": 0
+      "question": "Which part displays output visually?",
+      "options": ["CPU", "Keyboard", "Monitor", "Scanner"],
+      "answer-index": 2
     },
     {
       "id": 9,
-      "question": "Which control block pauses a script for a period of time?",
-      "options": ["Wait block", "Move block", "Turn block", "Say block"],
-      "answer-index": 0
+      "question": "Which device is used to print documents?",
+      "options": ["Monitor", "Printer", "Mouse", "Keyboard"],
+      "answer-index": 1
     },
     {
       "id": 10,
-      "question": "Which block starts a program when the green flag is clicked?",
-      "options": [
-        "When green flag clicked",
-        "Move 10 steps",
-        "Repeat block",
-        "Play sound"
-      ],
-      "answer-index": 0
+      "question": "The CPU is located in the:",
+      "options": ["Monitor", "System Unit", "Keyboard", "Printer"],
+      "answer-index": 1
     },
     {
       "id": 11,
-      "question": "A loop is used to:",
+      "question": "Coding is the process of:",
       "options": [
-        "Repeat instructions",
-        "Stop the program",
-        "Add sounds",
-        "Draw backgrounds"
+        "Playing games",
+        "Writing instructions for computers",
+        "Repairing computers",
+        "Drawing diagrams"
       ],
-      "answer-index": 0
+      "answer-index": 1
     },
     {
       "id": 12,
-      "question": "Which block repeats actions forever?",
-      "options": ["Repeat 10", "Forever", "Wait", "Stop"],
+      "question": "A person who writes code is called a:",
+      "options": ["Designer", "Programmer", "Engineer", "Typist"],
       "answer-index": 1
     },
     {
       "id": 13,
-      "question": "Which block repeats an action a specific number of times?",
-      "options": [
-        "Repeat block",
-        "Forever block",
-        "If block",
-        "Variable block"
-      ],
-      "answer-index": 0
-    },
-    {
-      "id": 14,
-      "question": "What is the main purpose of loops in programming?",
-      "options": [
-        "To avoid repeating the same code many times",
-        "To create sprites",
-        "To play music",
-        "To change colors"
-      ],
-      "answer-index": 0
-    },
-    {
-      "id": 15,
-      "question": "Which category contains loop blocks in Scratch?",
-      "options": ["Motion", "Control", "Looks", "Sound"],
-      "answer-index": 1
-    },
-    {
-      "id": 16,
-      "question": "A condition checks whether something is:",
-      "options": [
-        "True or False",
-        "Blue or Red",
-        "Big or Small",
-        "Fast or Slow"
-      ],
-      "answer-index": 0
-    },
-    {
-      "id": 17,
-      "question": "The if block is used to:",
-      "options": [
-        "Make decisions in a program",
-        "Play music",
-        "Move sprites",
-        "Draw backgrounds"
-      ],
-      "answer-index": 0
-    },
-    {
-      "id": 18,
-      "question": "What does an if-else block do?",
-      "options": [
-        "Runs only one action",
-        "Chooses between two actions",
-        "Stops the program",
-        "Creates a sprite"
-      ],
-      "answer-index": 1
-    },
-    {
-      "id": 19,
-      "question": "Which symbol is often used to compare values?",
-      "options": ["=", "@", "$", "#"],
-      "answer-index": 0
-    },
-    {
-      "id": 20,
-      "question": "A condition can check if a sprite is:",
-      "options": [
-        "Touching another sprite",
-        "Playing a sound",
-        "Changing costume",
-        "Adding variables"
-      ],
-      "answer-index": 0
-    },
-    {
-      "id": 21,
-      "question": "A variable is used to:",
-      "options": [
-        "Store information",
-        "Draw shapes",
-        "Play music",
-        "Create sprites"
-      ],
-      "answer-index": 0
-    },
-    {
-      "id": 22,
-      "question": "Which of the following can be stored in a variable?",
-      "options": ["Score", "Time", "Player name", "All of the above"],
+      "question": "Which of the following is a programming language?",
+      "options": ["HTML", "CSS", "JavaScript", "All of the above"],
       "answer-index": 3
     },
     {
+      "id": 14,
+      "question": "Coding helps computers to:",
+      "options": ["Sleep", "Understand instructions", "Break down", "Turn off"],
+      "answer-index": 1
+    },
+    {
+      "id": 15,
+      "question": "Which of the following is NOT related to coding?",
+      "options": ["Algorithms", "Instructions", "Cooking", "Programming"],
+      "answer-index": 2
+    },
+    {
+      "id": 16,
+      "question": "Instructions given to a computer must be:",
+      "options": ["Random", "In sequence", "Long", "Colorful"],
+      "answer-index": 1
+    },
+    {
+      "id": 17,
+      "question": "Sequencing means:",
+      "options": [
+        "Mixing instructions",
+        "Arranging steps in order",
+        "Deleting steps",
+        "Ignoring steps"
+      ],
+      "answer-index": 1
+    },
+    {
+      "id": 18,
+      "question": "Which comes first when making tea?",
+      "options": ["Drink tea", "Boil water", "Add sugar", "Wash cup"],
+      "answer-index": 3
+    },
+    {
+      "id": 19,
+      "question": "If instructions are out of order, the result will be:",
+      "options": ["Correct", "Faster", "Incorrect", "Perfect"],
+      "answer-index": 2
+    },
+    {
+      "id": 20,
+      "question": "Which of the following shows correct sequencing?",
+      "options": [
+        "Step 3, Step 1, Step 2",
+        "Step 1, Step 2, Step 3",
+        "Step 2, Step 3, Step 1",
+        "Step 3, Step 2, Step 1"
+      ],
+      "answer-index": 1
+    },
+    {
+      "id": 21,
+      "question": "An algorithm is:",
+      "options": [
+        "A computer",
+        "A step-by-step solution to a problem",
+        "A game",
+        "A machine"
+      ],
+      "answer-index": 1
+    },
+    {
+      "id": 22,
+      "question": "Algorithms are used to:",
+      "options": [
+        "Play music",
+        "Solve problems",
+        "Draw pictures",
+        "Watch videos"
+      ],
+      "answer-index": 1
+    },
+    {
       "id": 23,
-      "question": "Which block changes the value of a variable?",
-      "options": ["Set variable", "Move block", "Turn block", "Wait block"],
+      "question": "Which of the following is an example of an algorithm?",
+      "options": ["Recipe for cooking", "Watching TV", "Sleeping", "Singing"],
       "answer-index": 0
     },
     {
       "id": 24,
-      "question": "Variables are useful in games to keep track of:",
-      "options": ["Score", "Lives", "Time", "All of the above"],
-      "answer-index": 3
+      "question": "Algorithms must be:",
+      "options": ["Confusing", "Clear and ordered", "Long only", "Random"],
+      "answer-index": 1
     },
     {
       "id": 25,
-      "question": "Where are variable blocks found in Scratch?",
+      "question": "What is the first step in creating an algorithm?",
       "options": [
-        "Motion category",
-        "Variables category",
-        "Sound category",
-        "Looks category"
+        "Testing",
+        "Solving the problem",
+        "Understanding the problem",
+        "Writing code"
+      ],
+      "answer-index": 2
+    },
+    {
+      "id": 26,
+      "question": "Logical thinking helps you to:",
+      "options": [
+        "Guess randomly",
+        "Solve problems step by step",
+        "Ignore problems",
+        "Sleep better"
       ],
       "answer-index": 1
     },
     {
-      "id": 26,
-      "question": "Which block is used to play a sound in Scratch?",
-      "options": ["Play sound block", "Move block", "Turn block", "Wait block"],
-      "answer-index": 0
-    },
-    {
       "id": 27,
-      "question": "Animation in Scratch is created mainly by:",
-      "options": [
-        "Changing costumes quickly",
-        "Deleting sprites",
-        "Adding variables",
-        "Stopping scripts"
-      ],
-      "answer-index": 0
+      "question": "Which game improves logical thinking?",
+      "options": ["Football", "Chess", "Running", "Singing"],
+      "answer-index": 1
     },
     {
       "id": 28,
-      "question": "Which category contains sound blocks?",
-      "options": ["Sound", "Motion", "Control", "Looks"],
-      "answer-index": 0
+      "question": "What comes next in the pattern: 2, 4, 6, __?",
+      "options": ["7", "8", "10", "12"],
+      "answer-index": 1
     },
     {
       "id": 29,
-      "question": "A sprite can make a sound when:",
-      "options": [
-        "A key is pressed",
-        "The green flag is clicked",
-        "It touches another sprite",
-        "All of the above"
-      ],
-      "answer-index": 3
+      "question": "If all cats are animals and Tom is a cat, Tom is a:",
+      "options": ["Dog", "Animal", "Bird", "Fish"],
+      "answer-index": 1
     },
     {
       "id": 30,
-      "question": "What helps create smooth animation in Scratch?",
+      "question": "Logical games help improve:",
       "options": [
-        "Changing costumes repeatedly",
-        "Using only one costume",
-        "Removing sprites",
-        "Turning off scripts"
+        "Memory only",
+        "Thinking and reasoning",
+        "Drawing skills",
+        "Writing speed"
+      ],
+      "answer-index": 1
+    },
+    {
+      "id": 31,
+      "question": "Which of the following is an example of an output device?",
+      "options": ["Keyboard", "Mouse", "Monitor", "Scanner"],
+      "answer-index": 2
+    },
+    {
+      "id": 32,
+      "question": "What is the main purpose of coding?",
+      "options": [
+        "To decorate computers",
+        "To give instructions to computers",
+        "To repair hardware",
+        "To play music"
+      ],
+      "answer-index": 1
+    },
+    {
+      "id": 33,
+      "question": "Which step comes first in solving a problem?",
+      "options": [
+        "Writing code",
+        "Understanding the problem",
+        "Testing",
+        "Printing"
+      ],
+      "answer-index": 1
+    },
+    {
+      "id": 34,
+      "question": "Which of the following represents correct order?",
+      "options": [
+        "Start → Middle → End",
+        "End → Start → Middle",
+        "Middle → End → Start",
+        "End → Middle → Start"
       ],
       "answer-index": 0
+    },
+    {
+      "id": 35,
+      "question": "Which part of the computer helps in processing data?",
+      "options": ["Speaker", "CPU", "Mouse", "Monitor"],
+      "answer-index": 1
+    },
+    {
+      "id": 36,
+      "question": "What will happen if instructions are not followed correctly?",
+      "options": [
+        "The result will be correct",
+        "The computer will improve",
+        "The result may be wrong",
+        "Nothing will happen"
+      ],
+      "answer-index": 2
+    },
+    {
+      "id": 37,
+      "question": "Which of the following is related to logical thinking?",
+      "options": [
+        "Guessing answers",
+        "Following patterns",
+        "Ignoring steps",
+        "Skipping instructions"
+      ],
+      "answer-index": 1
+    },
+    {
+      "id": 38,
+      "question": "What is an example of ICT device?",
+      "options": ["Calculator", "Radio", "Smartphone", "All of the above"],
+      "answer-index": 3
+    },
+    {
+      "id": 39,
+      "question": "Which of the following is a sequence?",
+      "options": ["5, 3, 1, 4", "1, 2, 3, 4", "9, 7, 5, 2", "8, 6, 3, 1"],
+      "answer-index": 1
+    },
+    {
+      "id": 40,
+      "question": "What comes next in the pattern: 1, 3, 5, 7, __?",
+      "options": ["8", "9", "10", "11"],
+      "answer-index": 1
     }
   ]
 }

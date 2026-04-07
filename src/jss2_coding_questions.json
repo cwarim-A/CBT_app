@@ -2,263 +2,303 @@
   "questions": [
     {
       "id": 1,
-      "question": "A programming language is used to:",
-      "options": [
-        "Write instructions for a computer",
-        "Draw pictures",
-        "Design buildings",
-        "Play music"
-      ],
-      "answer-index": 0
+      "question": "Which device is used to display information on a computer?",
+      "options": ["Keyboard", "Monitor", "Mouse", "CPU"],
+      "answer-index": 1
     },
     {
       "id": 2,
-      "question": "Which of the following is a programming language?",
-      "options": ["Python", "HTML", "Windows", "Google"],
-      "answer-index": 0
+      "question": "ICT helps people to:",
+      "options": [
+        "Sleep better",
+        "Communicate and share information",
+        "Cook food",
+        "Drive cars"
+      ],
+      "answer-index": 1
     },
     {
       "id": 3,
-      "question": "Programming languages help humans to:",
-      "options": [
-        "Communicate with computers",
-        "Repair computers",
-        "Build hardware",
-        "Delete files"
-      ],
-      "answer-index": 0
+      "question": "Which of the following is NOT a part of a computer system?",
+      "options": ["Software", "Hardware", "Data", "Water"],
+      "answer-index": 3
     },
     {
       "id": 4,
-      "question": "A set of instructions given to a computer is called a:",
-      "options": ["Program", "Folder", "Document", "Network"],
-      "answer-index": 0
+      "question": "Coding is important because it:",
+      "options": [
+        "Breaks computers",
+        "Helps create programs",
+        "Deletes files",
+        "Stops machines"
+      ],
+      "answer-index": 1
     },
     {
       "id": 5,
-      "question": "Which of the following is NOT a programming language?",
-      "options": ["Python", "Java", "Microsoft Word", "C++"],
+      "question": "Which of the following is an example of software?",
+      "options": ["Keyboard", "Monitor", "Microsoft Word", "Mouse"],
       "answer-index": 2
     },
     {
       "id": 6,
-      "question": "Python is mainly used for:",
-      "options": ["Programming", "Cooking", "Painting", "Driving"],
+      "question": "Which device is used to hear sound from a computer?",
+      "options": ["Speaker", "Printer", "Scanner", "Monitor"],
       "answer-index": 0
     },
     {
       "id": 7,
-      "question": "Python is known for being:",
-      "options": [
-        "Easy to read and write",
-        "Very difficult to learn",
-        "Only used for games",
-        "Only used for hardware"
-      ],
-      "answer-index": 0
+      "question": "Instructions given to a computer must be:",
+      "options": ["Mixed", "Ordered", "Random", "Skipped"],
+      "answer-index": 1
     },
     {
       "id": 8,
-      "question": "Python programs are written in files with which extension?",
-      "options": [".py", ".html", ".doc", ".jpg"],
-      "answer-index": 0
+      "question": "What does a mouse do?",
+      "options": [
+        "Displays images",
+        "Moves pointer and clicks",
+        "Prints documents",
+        "Stores data"
+      ],
+      "answer-index": 1
     },
     {
       "id": 9,
-      "question": "Who created Python?",
-      "options": [
-        "Guido van Rossum",
-        "Bill Gates",
-        "Mark Zuckerberg",
-        "Steve Jobs"
-      ],
+      "question": "Which of these is a storage device?",
+      "options": ["Flash drive", "Keyboard", "Mouse", "Monitor"],
       "answer-index": 0
     },
     {
       "id": 10,
-      "question": "Python is an example of a:",
-      "options": [
-        "Programming language",
-        "Web browser",
-        "Operating system",
-        "Text editor"
-      ],
-      "answer-index": 0
+      "question": "A programmer writes:",
+      "options": ["Stories", "Code", "Music", "Drawings"],
+      "answer-index": 1
     },
     {
       "id": 11,
-      "question": "Syntax in programming refers to:",
-      "options": [
-        "The rules of writing code",
-        "The speed of a computer",
-        "The color of the code",
-        "The size of the program"
-      ],
-      "answer-index": 0
+      "question": "Which of these is an input device?",
+      "options": ["Speaker", "Printer", "Keyboard", "Monitor"],
+      "answer-index": 2
     },
     {
       "id": 12,
-      "question": "Python uses indentation to:",
+      "question": "Sequencing helps to:",
       "options": [
-        "Show code structure",
-        "Add colors",
-        "Create files",
-        "Install programs"
+        "Confuse steps",
+        "Arrange steps correctly",
+        "Delete steps",
+        "Repeat steps"
       ],
-      "answer-index": 0
+      "answer-index": 1
     },
     {
       "id": 13,
-      "question": "Which symbol is commonly used for comments in Python?",
-      "options": ["#", "@", "$", "&"],
+      "question": "Which of the following is an example of an ICT tool?",
+      "options": ["Smartphone", "Book", "Chair", "Table"],
       "answer-index": 0
     },
     {
       "id": 14,
-      "question": "Which of the following is a correct Python statement?",
-      "options": [
-        "print(\"Hello\")",
-        "Print Hello",
-        "print Hello",
-        "hello print"
-      ],
-      "answer-index": 0
+      "question": "The CPU performs:",
+      "options": ["Cooking", "Processing", "Drawing", "Sleeping"],
+      "answer-index": 1
     },
     {
       "id": 15,
-      "question": "Python code is usually written in:",
-      "options": ["Lines", "Circles", "Tables", "Images"],
-      "answer-index": 0
+      "question": "What happens when instructions are unclear?",
+      "options": [
+        "Perfect result",
+        "Wrong result",
+        "Faster result",
+        "No change"
+      ],
+      "answer-index": 1
     },
     {
       "id": 16,
-      "question": "The print() function in Python is used to:",
+      "question": "Which is an example of a coding activity?",
       "options": [
-        "Display output on the screen",
-        "Delete files",
-        "Save documents",
-        "Create folders"
+        "Writing a recipe",
+        "Writing a program",
+        "Drawing a map",
+        "Reading a book"
       ],
-      "answer-index": 0
+      "answer-index": 1
     },
     {
       "id": 17,
-      "question": "Which function is used to get input from a user?",
-      "options": ["input()", "print()", "open()", "save()"],
-      "answer-index": 0
+      "question": "Which device prints hard copies?",
+      "options": ["Monitor", "Printer", "Speaker", "Mouse"],
+      "answer-index": 1
     },
     {
       "id": 18,
-      "question": "What will this code do? print(\"Hello World\")",
-      "options": [
-        "Display \"Hello World\" on the screen",
-        "Ask for input",
-        "Delete data",
-        "Stop the program"
-      ],
-      "answer-index": 0
+      "question": "An algorithm is used before:",
+      "options": ["Sleeping", "Coding", "Eating", "Playing"],
+      "answer-index": 1
     },
     {
       "id": 19,
-      "question": "The input() function allows the program to:",
-      "options": [
-        "Receive information from the user",
-        "Print a message",
-        "Create variables automatically",
-        "Delete files"
-      ],
-      "answer-index": 0
+      "question": "Logical thinking helps you to:",
+      "options": ["Guess", "Reason", "Sleep", "Forget"],
+      "answer-index": 1
     },
     {
       "id": 20,
-      "question": "What does this code do? name = input(\"Enter your name: \")",
+      "question": "Which of the following is the correct order?",
       "options": [
-        "Stores the user's name",
-        "Deletes the name",
-        "Prints the name automatically",
-        "Stops the program"
+        "End → Start → Middle",
+        "Start → End → Middle",
+        "Start → Middle → End",
+        "Middle → Start → End"
       ],
-      "answer-index": 0
+      "answer-index": 2
     },
     {
       "id": 21,
-      "question": "A variable in Python is used to:",
-      "options": [
-        "Store data",
-        "Delete programs",
-        "Draw graphics",
-        "Install software"
-      ],
-      "answer-index": 0
+      "question": "Which part of the computer stores information permanently?",
+      "options": ["RAM", "Hard drive", "Monitor", "Mouse"],
+      "answer-index": 1
     },
     {
       "id": 22,
-      "question": "Which of the following is a valid variable name?",
-      "options": ["age", "2age", "@age", "age-name"],
+      "question": "Coding languages are used to:",
+      "options": [
+        "Communicate with computers",
+        "Cook food",
+        "Drive cars",
+        "Build houses"
+      ],
       "answer-index": 0
     },
     {
       "id": 23,
-      "question": "What does this code do? x = 10",
-      "options": [
-        "Stores 10 in variable x",
-        "Prints 10",
-        "Deletes 10",
-        "Stops the program"
-      ],
-      "answer-index": 0
-    },
-    {
-      "id": 24,
-      "question": "Variables can store:",
-      "options": ["Numbers", "Text", "Both numbers and text", "Only images"],
+      "question": "Which step comes last in a sequence?",
+      "options": ["First", "Middle", "Final", "Beginning"],
       "answer-index": 2
     },
     {
+      "id": 24,
+      "question": "Which of these is NOT an output device?",
+      "options": ["Printer", "Speaker", "Monitor", "Keyboard"],
+      "answer-index": 3
+    },
+    {
       "id": 25,
-      "question": "Which symbol is used to assign a value to a variable in Python?",
-      "options": ["=", "+", "*", "/"],
-      "answer-index": 0
+      "question": "ICT includes:",
+      "options": ["Internet", "Computers", "Mobile phones", "All of the above"],
+      "answer-index": 3
     },
     {
       "id": 26,
-      "question": "A condition in programming is used to:",
-      "options": ["Make decisions", "Print text", "Save files", "Play music"],
-      "answer-index": 0
+      "question": "Which of the following shows a pattern?",
+      "options": ["2, 5, 7, 1", "A, B, C, D", "9, 3, 8, 2", "4, 1, 6, 9"],
+      "answer-index": 1
     },
     {
       "id": 27,
-      "question": "Which keyword is used to start a condition in Python?",
-      "options": ["if", "loop", "print", "input"],
-      "answer-index": 0
+      "question": "What is the first step in solving a problem?",
+      "options": ["Guessing", "Understanding it", "Ignoring it", "Ending it"],
+      "answer-index": 1
     },
     {
       "id": 28,
-      "question": "What does the else statement do?",
-      "options": [
-        "Runs when the condition is false",
-        "Stops the program",
-        "Prints a message",
-        "Creates a variable"
-      ],
-      "answer-index": 0
+      "question": "A computer follows instructions given by:",
+      "options": ["Animals", "Humans", "Plants", "Weather"],
+      "answer-index": 1
     },
     {
       "id": 29,
-      "question": "Which operator checks if two values are equal?",
-      "options": ["==", "=", "+", "/"],
-      "answer-index": 0
+      "question": "Which device is used to type letters?",
+      "options": ["Mouse", "Keyboard", "Monitor", "Speaker"],
+      "answer-index": 1
     },
     {
       "id": 30,
-      "question": "What will this code check? if age > 18:",
-      "options": [
-        "If age is greater than 18",
-        "If age is equal to 18",
-        "If age is less than 18",
-        "If age is zero"
-      ],
+      "question": "Logical games help improve:",
+      "options": ["Thinking", "Sleeping", "Eating", "Running"],
       "answer-index": 0
+    },
+    {
+      "id": 31,
+      "question": "What is the function of RAM?",
+      "options": [
+        "Permanent storage",
+        "Temporary storage",
+        "Printing",
+        "Displaying"
+      ],
+      "answer-index": 1
+    },
+    {
+      "id": 32,
+      "question": "Which of these is a correct instruction order?",
+      "options": [
+        "Step 2, Step 1, Step 3",
+        "Step 1, Step 3, Step 2",
+        "Step 1, Step 2, Step 3",
+        "Step 3, Step 2, Step 1"
+      ],
+      "answer-index": 2
+    },
+    {
+      "id": 33,
+      "question": "Coding helps to create:",
+      "options": ["Programs", "Chairs", "Tables", "Books"],
+      "answer-index": 0
+    },
+    {
+      "id": 34,
+      "question": "Which of the following is NOT ICT-related?",
+      "options": ["Email", "Television", "Internet", "Bicycle"],
+      "answer-index": 3
+    },
+    {
+      "id": 35,
+      "question": "What comes next in the pattern: 10, 20, 30, __?",
+      "options": ["35", "40", "50", "60"],
+      "answer-index": 1
+    },
+    {
+      "id": 36,
+      "question": "The brain of the computer is:",
+      "options": ["Keyboard", "CPU", "Monitor", "Printer"],
+      "answer-index": 1
+    },
+    {
+      "id": 37,
+      "question": "Which of these involves logical thinking?",
+      "options": ["Solving puzzles", "Sleeping", "Eating", "Singing"],
+      "answer-index": 0
+    },
+    {
+      "id": 38,
+      "question": "Which step ensures correct results?",
+      "options": [
+        "Ignoring instructions",
+        "Following steps properly",
+        "Skipping steps",
+        "Mixing steps"
+      ],
+      "answer-index": 1
+    },
+    {
+      "id": 39,
+      "question": "Which of the following is a digital device?",
+      "options": ["Chalkboard", "Computer", "Paper", "Pen"],
+      "answer-index": 1
+    },
+    {
+      "id": 40,
+      "question": "Which of these best describes sequencing?",
+      "options": [
+        "Random steps",
+        "Ordered steps",
+        "Skipped steps",
+        "Mixed steps"
+      ],
+      "answer-index": 1
     }
   ]
 }
